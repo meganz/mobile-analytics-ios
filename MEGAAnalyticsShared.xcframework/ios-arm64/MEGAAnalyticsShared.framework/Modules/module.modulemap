@@ -1,0 +1,8 @@
+framework module MEGAAnalyticsShared {
+    umbrella header "MEGAAnalyticsShared.h"
+
+    export *
+    module * { export * }
+
+    use Foundation
+}
