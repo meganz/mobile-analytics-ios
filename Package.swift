@@ -2,20 +2,20 @@
 import PackageDescription
 
 let package = Package(
-    name: "MEGAAnalyticsShared",
+    name: "MEGAAnalyticsiOS",
     platforms: [
         .iOS(.v14)
     ],
     products: [
         .library(
-            name: "MEGAAnalyticsShared",
-            targets: ["MEGAAnalyticsShared"]
+            name: "MEGAAnalyticsiOS",
+            targets: ["MEGAAnalyticsiOS"]
         ),
     ],
     targets: [
         .binaryTarget(
-            name: "MEGAAnalyticsShared",
-            path: "./MEGAAnalyticsShared.xcframework"
+            name: "MEGAAnalyticsiOS",
+            path: "./MEGAAnalyticsiOS.xcframework"
         ),
     ]
 )

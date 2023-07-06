@@ -1,0 +1,8 @@
+framework module MEGAAnalyticsiOS {
+    umbrella header "MEGAAnalyticsiOS.h"
+
+    export *
+    module * { export * }
+
+    use Foundation
+}
