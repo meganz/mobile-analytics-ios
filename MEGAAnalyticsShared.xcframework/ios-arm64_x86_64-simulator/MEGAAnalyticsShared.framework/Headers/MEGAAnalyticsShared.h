@@ -6,7 +6,7 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class MEGAASAnalyticsEvent, MEGAASGeneralEvent, MEGAASItemSelectedEvent, MEGAASNotificationEvent, MEGAASScreenViewEvent, MEGAASTabSelectedEvent, MEGAASKotlinEnumCompanion, MEGAASKotlinEnum<E>, MEGAASDecodeSequenceMode, MEGAASKotlinArray<T>, MEGAASSerializersModule, MEGAASJsonDefault, MEGAASJsonElement, MEGAASJsonConfiguration, MEGAASJson, MEGAASKotlinNothing, MEGAASJsonElementCompanion, MEGAASJsonNamingStrategyBuiltins, MEGAASJsonPrimitiveCompanion, MEGAASJsonPrimitive, MEGAASJsonNull, MEGAASKotlinByteArray, MEGAASKotlinThrowable, MEGAASKotlinException, MEGAASKotlinRuntimeException, MEGAASKotlinIllegalArgumentException, MEGAASSerializationException, MEGAASAbstractPolymorphicSerializer<T>, MEGAASAbstractCollectionSerializer<Element, Collection, Builder>, MEGAASTaggedDecoder<Tag>, MEGAASTaggedEncoder<Tag>, MEGAASSerialKind, MEGAASPolymorphicKind, MEGAASPolymorphicKindOPEN, MEGAASPolymorphicKindSEALED, MEGAASPrimitiveKind, MEGAASPrimitiveKindBOOLEAN, MEGAASPrimitiveKindBYTE, MEGAASPrimitiveKindCHAR, MEGAASPrimitiveKindDOUBLE, MEGAASPrimitiveKindFLOAT, MEGAASPrimitiveKindINT, MEGAASPrimitiveKindLONG, MEGAASPrimitiveKindSHORT, MEGAASPrimitiveKindSTRING, MEGAASSerialKindCONTEXTUAL, MEGAASSerialKindENUM, MEGAASStructureKind, MEGAASStructureKindCLASS, MEGAASStructureKindLIST, MEGAASStructureKindMAP, MEGAASStructureKindOBJECT, MEGAASLongAsStringSerializer, MEGAASCompositeDecoderCompanion, MEGAASAlbumsTabEvent, MEGAASChatScreenEvent, MEGAASChatsTabEvent, MEGAASCloudDriveScreenEvent, MEGAASCreateNewAlbumDialogEvent, MEGAASDeleteAlbumCancelButtonPressedEvent, MEGAASDeleteAlbumConfirmButtonPressedEvent, MEGAASDeleteAlbumsConfirmationDialogEvent, MEGAASHomeScreenEvent, MEGAASIncomingSharesTabEvent, MEGAASLinkSharesTabEvent, MEGAASMeetingsTabEvent, MEGAASOfflineTabEvent, MEGAASOutgoingSharesTabEvent, MEGAASPhotoScreenEvent, MEGAASRecentsTabEvent, MEGAASRemoveLinksConfirmationDialogEvent, MEGAASSharedItemsScreenEvent, MEGAASSlideShowScreenEvent, MEGAASTimelineTabEvent, MEGAASJsonArrayBuilder, MEGAASJsonObjectBuilder, MEGAASSerializersModuleBuilder, MEGAASPolymorphicModuleBuilder<__contravariant Base>, MEGAASClassSerialDescriptorBuilder, MEGAASKotlinBooleanCompanion, MEGAASKotlinByteCompanion, MEGAASKotlinCharCompanion, MEGAASKotlinDoubleCompanion, MEGAASKotlinFloatCompanion, MEGAASKotlinIntCompanion, MEGAASKotlinLongCompanion, MEGAASKotlinShortCompanion, MEGAASKotlinStringCompanion, MEGAASKotlinUByteCompanion, MEGAASKotlinUIntCompanion, MEGAASKotlinULongCompanion, MEGAASKotlinUShortCompanion, MEGAASKotlinUnit, MEGAASKotlinDurationCompanion, MEGAASKotlinDurationUnit, MEGAASJsonBuilder, MEGAASKotlinIntArray, MEGAASKotlinIllegalStateException, MEGAASKotlinByteIterator, MEGAASKotlinKTypeProjection, MEGAASKotlinIntIterator, MEGAASKotlinKVariance, MEGAASKotlinKTypeProjectionCompanion;
+@class MEGAASAnalyticsEvent, MEGAASGeneralEvent, MEGAASItemSelectedEvent, MEGAASNotificationEvent, MEGAASScreenViewEvent, MEGAASTabSelectedEvent, MEGAASKotlinEnumCompanion, MEGAASKotlinEnum<E>, MEGAASDecodeSequenceMode, MEGAASKotlinArray<T>, MEGAASSerializersModule, MEGAASJsonDefault, MEGAASJsonElement, MEGAASJsonConfiguration, MEGAASJson, MEGAASKotlinNothing, MEGAASJsonElementCompanion, MEGAASJsonNamingStrategyBuiltins, MEGAASJsonPrimitiveCompanion, MEGAASJsonPrimitive, MEGAASJsonNull, MEGAASKotlinByteArray, MEGAASKotlinThrowable, MEGAASKotlinException, MEGAASKotlinRuntimeException, MEGAASKotlinIllegalArgumentException, MEGAASSerializationException, MEGAASAbstractPolymorphicSerializer<T>, MEGAASAbstractCollectionSerializer<Element, Collection, Builder>, MEGAASTaggedDecoder<Tag>, MEGAASTaggedEncoder<Tag>, MEGAASSerialKind, MEGAASPolymorphicKind, MEGAASPolymorphicKindOPEN, MEGAASPolymorphicKindSEALED, MEGAASPrimitiveKind, MEGAASPrimitiveKindBOOLEAN, MEGAASPrimitiveKindBYTE, MEGAASPrimitiveKindCHAR, MEGAASPrimitiveKindDOUBLE, MEGAASPrimitiveKindFLOAT, MEGAASPrimitiveKindINT, MEGAASPrimitiveKindLONG, MEGAASPrimitiveKindSHORT, MEGAASPrimitiveKindSTRING, MEGAASSerialKindCONTEXTUAL, MEGAASSerialKindENUM, MEGAASStructureKind, MEGAASStructureKindCLASS, MEGAASStructureKindLIST, MEGAASStructureKindMAP, MEGAASStructureKindOBJECT, MEGAASLongAsStringSerializer, MEGAASCompositeDecoderCompanion, MEGAASAlbumsTabEvent, MEGAASChatScreenEvent, MEGAASChatsTabEvent, MEGAASCloudDriveScreenEvent, MEGAASCreateNewAlbumDialogEvent, MEGAASDeleteAlbumCancelButtonPressedEvent, MEGAASDeleteAlbumConfirmButtonPressedEvent, MEGAASDeleteAlbumsConfirmationDialogEvent, MEGAASHomeScreenEvent, MEGAASIncomingSharesTabEvent, MEGAASLinkConfirmPasswordFileButtonPressedEvent, MEGAASLinkConfirmPasswordFolderButtonPressedEvent, MEGAASLinkGetLinkForNodesMenuItemEvent, MEGAASLinkGetLinkForNodesMenuToolbarEvent, MEGAASLinkManageLinkTapFileMenuItemEvent, MEGAASLinkManageLinkTapFileMenuToolbarEvent, MEGAASLinkManageLinkTapFolderMenuItemEvent, MEGAASLinkManageLinkTapFolderMenuToolbarEvent, MEGAASLinkProFeatureSeeNotNowPlanFileButtonPressedEvent, MEGAASLinkProFeatureSeeNotNowPlanFileDialogEvent, MEGAASLinkProFeatureSeeNotNowPlanFolderButtonPressedEvent, MEGAASLinkProFeatureSeeNotNowPlanFolderDialogEvent, MEGAASLinkProFeatureSeePlanFileButtonPressedEvent, MEGAASLinkProFeatureSeePlanFileDialogEvent, MEGAASLinkProFeatureSeePlanFolderButtonPressedEvent, MEGAASLinkProFeatureSeePlanFolderDialogEvent, MEGAASLinkRemovePasswordFileButtonPressedEvent, MEGAASLinkRemovePasswordFolderButtonPressedEvent, MEGAASLinkResetPasswordFileButtonPressedEvent, MEGAASLinkResetPasswordFolderButtonPressedEvent, MEGAASLinkSendDecryptionKeyFileButtonPressedEvent, MEGAASLinkSendDecryptionKeyFolderButtonPressedEvent, MEGAASLinkSetExpiryDateFileButtonPressedEvent, MEGAASLinkSetExpiryDateFolderButtonPressedEvent, MEGAASLinkSetPasswordFileButtonPressedEvent, MEGAASLinkSetPasswordFolderButtonPressedEvent, MEGAASLinkShareLinkForNodesMenuItemEvent, MEGAASLinkShareLinkForNodesMenuToolbarEvent, MEGAASLinkShareLinkTapFileMenuItemEvent, MEGAASLinkShareLinkTapFileMenuToolbarEvent, MEGAASLinkShareLinkTapFolderMenuItemEvent, MEGAASLinkShareLinkTapFolderMenuToolbarEvent, MEGAASLinkSharesTabEvent, MEGAASMeetingsTabEvent, MEGAASOfflineTabEvent, MEGAASOutgoingSharesTabEvent, MEGAASPhotoScreenEvent, MEGAASRecentsTabEvent, MEGAASRemoveLinksConfirmationDialogEvent, MEGAASSharedItemsScreenEvent, MEGAASSlideShowScreenEvent, MEGAASTimelineTabEvent, MEGAASJsonArrayBuilder, MEGAASJsonObjectBuilder, MEGAASSerializersModuleBuilder, MEGAASPolymorphicModuleBuilder<__contravariant Base>, MEGAASClassSerialDescriptorBuilder, MEGAASKotlinBooleanCompanion, MEGAASKotlinByteCompanion, MEGAASKotlinCharCompanion, MEGAASKotlinDoubleCompanion, MEGAASKotlinFloatCompanion, MEGAASKotlinIntCompanion, MEGAASKotlinLongCompanion, MEGAASKotlinShortCompanion, MEGAASKotlinStringCompanion, MEGAASKotlinUByteCompanion, MEGAASKotlinUIntCompanion, MEGAASKotlinULongCompanion, MEGAASKotlinUShortCompanion, MEGAASKotlinUnit, MEGAASKotlinDurationCompanion, MEGAASKotlinDurationUnit, MEGAASJsonBuilder, MEGAASKotlinIntArray, MEGAASKotlinIllegalStateException, MEGAASKotlinByteIterator, MEGAASKotlinKTypeProjection, MEGAASKotlinIntIterator, MEGAASKotlinKVariance, MEGAASKotlinKTypeProjectionCompanion;
 
 @protocol MEGAASPlatform, MEGAASKotlinSuspendFunction0, MEGAASEventIdentifier, MEGAASEventDataMapper, MEGAASButtonPressedEventIdentifier, MEGAASDialogDisplayedEventIdentifier, MEGAASGeneralEventIdentifier, MEGAASItemSelectedEventIdentifier, MEGAASMenuItemEventIdentifier, MEGAASNavigationEventIdentifier, MEGAASNotificationEventIdentifier, MEGAASScreenViewEventIdentifier, MEGAASTabSelectedEventIdentifier, MEGAASKotlinComparable, MEGAASDeserializationStrategy, MEGAASSerializationStrategy, MEGAASSerialFormat, MEGAASStringFormat, MEGAASJsonNamingStrategy, MEGAASEncoder, MEGAASSerialDescriptor, MEGAASDecoder, MEGAASKSerializer, MEGAASKotlinKClass, MEGAASCompositeDecoder, MEGAASCompositeEncoder, MEGAASKotlinIterator, MEGAASKotlinMapEntry, MEGAASSerializersModuleCollector, MEGAASKotlinAnnotation, MEGAASViewIdProvider, MEGAASEventSender, MEGAASKotlinKType, MEGAASBinaryFormat, MEGAASKotlinFunction, MEGAASKotlinKDeclarationContainer, MEGAASKotlinKAnnotatedElement, MEGAASKotlinKClassifier;
 
@@ -2261,6 +2261,610 @@ __attribute__((swift_name("IncomingSharesTabEvent")))
 @property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
 @property (readonly) NSString *screenName __attribute__((swift_name("screenName")));
 @property (readonly) NSString *tabName __attribute__((swift_name("tabName")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
+__attribute__((swift_name("LinkConfirmPasswordFileButtonPressed")))
+@protocol MEGAASLinkConfirmPasswordFileButtonPressed
+@required
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("LinkConfirmPasswordFileButtonPressedEvent")))
+@interface MEGAASLinkConfirmPasswordFileButtonPressedEvent : MEGAASBase <MEGAASButtonPressedEventIdentifier>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)linkConfirmPasswordFileButtonPressedEvent __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MEGAASLinkConfirmPasswordFileButtonPressedEvent *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *buttonName __attribute__((swift_name("buttonName")));
+@property (readonly) NSString * _Nullable dialogName __attribute__((swift_name("dialogName")));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSString * _Nullable screenName __attribute__((swift_name("screenName")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
+__attribute__((swift_name("LinkConfirmPasswordFolderButtonPressed")))
+@protocol MEGAASLinkConfirmPasswordFolderButtonPressed
+@required
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("LinkConfirmPasswordFolderButtonPressedEvent")))
+@interface MEGAASLinkConfirmPasswordFolderButtonPressedEvent : MEGAASBase <MEGAASButtonPressedEventIdentifier>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)linkConfirmPasswordFolderButtonPressedEvent __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MEGAASLinkConfirmPasswordFolderButtonPressedEvent *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *buttonName __attribute__((swift_name("buttonName")));
+@property (readonly) NSString * _Nullable dialogName __attribute__((swift_name("dialogName")));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSString * _Nullable screenName __attribute__((swift_name("screenName")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
+__attribute__((swift_name("LinkGetLinkForNodesMenuItem")))
+@protocol MEGAASLinkGetLinkForNodesMenuItem
+@required
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("LinkGetLinkForNodesMenuItemEvent")))
+@interface MEGAASLinkGetLinkForNodesMenuItemEvent : MEGAASBase <MEGAASMenuItemEventIdentifier>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)linkGetLinkForNodesMenuItemEvent __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MEGAASLinkGetLinkForNodesMenuItemEvent *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSString *menuItem __attribute__((swift_name("menuItem")));
+@property (readonly) NSString *menuType __attribute__((swift_name("menuType")));
+@property (readonly) NSString * _Nullable screenName __attribute__((swift_name("screenName")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
+__attribute__((swift_name("LinkGetLinkForNodesMenuToolbar")))
+@protocol MEGAASLinkGetLinkForNodesMenuToolbar
+@required
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("LinkGetLinkForNodesMenuToolbarEvent")))
+@interface MEGAASLinkGetLinkForNodesMenuToolbarEvent : MEGAASBase <MEGAASMenuItemEventIdentifier>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)linkGetLinkForNodesMenuToolbarEvent __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MEGAASLinkGetLinkForNodesMenuToolbarEvent *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSString *menuItem __attribute__((swift_name("menuItem")));
+@property (readonly) NSString *menuType __attribute__((swift_name("menuType")));
+@property (readonly) NSString * _Nullable screenName __attribute__((swift_name("screenName")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
+__attribute__((swift_name("LinkManageLinkTapFileMenuItem")))
+@protocol MEGAASLinkManageLinkTapFileMenuItem
+@required
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("LinkManageLinkTapFileMenuItemEvent")))
+@interface MEGAASLinkManageLinkTapFileMenuItemEvent : MEGAASBase <MEGAASMenuItemEventIdentifier>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)linkManageLinkTapFileMenuItemEvent __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MEGAASLinkManageLinkTapFileMenuItemEvent *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSString *menuItem __attribute__((swift_name("menuItem")));
+@property (readonly) NSString *menuType __attribute__((swift_name("menuType")));
+@property (readonly) NSString * _Nullable screenName __attribute__((swift_name("screenName")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
+__attribute__((swift_name("LinkManageLinkTapFileMenuToolbar")))
+@protocol MEGAASLinkManageLinkTapFileMenuToolbar
+@required
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("LinkManageLinkTapFileMenuToolbarEvent")))
+@interface MEGAASLinkManageLinkTapFileMenuToolbarEvent : MEGAASBase <MEGAASMenuItemEventIdentifier>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)linkManageLinkTapFileMenuToolbarEvent __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MEGAASLinkManageLinkTapFileMenuToolbarEvent *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSString *menuItem __attribute__((swift_name("menuItem")));
+@property (readonly) NSString *menuType __attribute__((swift_name("menuType")));
+@property (readonly) NSString * _Nullable screenName __attribute__((swift_name("screenName")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
+__attribute__((swift_name("LinkManageLinkTapFolderMenuItem")))
+@protocol MEGAASLinkManageLinkTapFolderMenuItem
+@required
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("LinkManageLinkTapFolderMenuItemEvent")))
+@interface MEGAASLinkManageLinkTapFolderMenuItemEvent : MEGAASBase <MEGAASMenuItemEventIdentifier>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)linkManageLinkTapFolderMenuItemEvent __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MEGAASLinkManageLinkTapFolderMenuItemEvent *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSString *menuItem __attribute__((swift_name("menuItem")));
+@property (readonly) NSString *menuType __attribute__((swift_name("menuType")));
+@property (readonly) NSString * _Nullable screenName __attribute__((swift_name("screenName")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
+__attribute__((swift_name("LinkManageLinkTapFolderMenuToolbar")))
+@protocol MEGAASLinkManageLinkTapFolderMenuToolbar
+@required
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("LinkManageLinkTapFolderMenuToolbarEvent")))
+@interface MEGAASLinkManageLinkTapFolderMenuToolbarEvent : MEGAASBase <MEGAASMenuItemEventIdentifier>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)linkManageLinkTapFolderMenuToolbarEvent __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MEGAASLinkManageLinkTapFolderMenuToolbarEvent *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSString *menuItem __attribute__((swift_name("menuItem")));
+@property (readonly) NSString *menuType __attribute__((swift_name("menuType")));
+@property (readonly) NSString * _Nullable screenName __attribute__((swift_name("screenName")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
+__attribute__((swift_name("LinkProFeatureSeeNotNowPlanFileButtonPressed")))
+@protocol MEGAASLinkProFeatureSeeNotNowPlanFileButtonPressed
+@required
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("LinkProFeatureSeeNotNowPlanFileButtonPressedEvent")))
+@interface MEGAASLinkProFeatureSeeNotNowPlanFileButtonPressedEvent : MEGAASBase <MEGAASButtonPressedEventIdentifier>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)linkProFeatureSeeNotNowPlanFileButtonPressedEvent __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MEGAASLinkProFeatureSeeNotNowPlanFileButtonPressedEvent *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *buttonName __attribute__((swift_name("buttonName")));
+@property (readonly) NSString * _Nullable dialogName __attribute__((swift_name("dialogName")));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSString * _Nullable screenName __attribute__((swift_name("screenName")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
+__attribute__((swift_name("LinkProFeatureSeeNotNowPlanFileDialog")))
+@protocol MEGAASLinkProFeatureSeeNotNowPlanFileDialog
+@required
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("LinkProFeatureSeeNotNowPlanFileDialogEvent")))
+@interface MEGAASLinkProFeatureSeeNotNowPlanFileDialogEvent : MEGAASBase <MEGAASDialogDisplayedEventIdentifier>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)linkProFeatureSeeNotNowPlanFileDialogEvent __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MEGAASLinkProFeatureSeeNotNowPlanFileDialogEvent *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *dialogName __attribute__((swift_name("dialogName")));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSString * _Nullable screenName __attribute__((swift_name("screenName")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
+__attribute__((swift_name("LinkProFeatureSeeNotNowPlanFolderButtonPressed")))
+@protocol MEGAASLinkProFeatureSeeNotNowPlanFolderButtonPressed
+@required
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("LinkProFeatureSeeNotNowPlanFolderButtonPressedEvent")))
+@interface MEGAASLinkProFeatureSeeNotNowPlanFolderButtonPressedEvent : MEGAASBase <MEGAASButtonPressedEventIdentifier>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)linkProFeatureSeeNotNowPlanFolderButtonPressedEvent __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MEGAASLinkProFeatureSeeNotNowPlanFolderButtonPressedEvent *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *buttonName __attribute__((swift_name("buttonName")));
+@property (readonly) NSString * _Nullable dialogName __attribute__((swift_name("dialogName")));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSString * _Nullable screenName __attribute__((swift_name("screenName")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
+__attribute__((swift_name("LinkProFeatureSeeNotNowPlanFolderDialog")))
+@protocol MEGAASLinkProFeatureSeeNotNowPlanFolderDialog
+@required
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("LinkProFeatureSeeNotNowPlanFolderDialogEvent")))
+@interface MEGAASLinkProFeatureSeeNotNowPlanFolderDialogEvent : MEGAASBase <MEGAASDialogDisplayedEventIdentifier>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)linkProFeatureSeeNotNowPlanFolderDialogEvent __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MEGAASLinkProFeatureSeeNotNowPlanFolderDialogEvent *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *dialogName __attribute__((swift_name("dialogName")));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSString * _Nullable screenName __attribute__((swift_name("screenName")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
+__attribute__((swift_name("LinkProFeatureSeePlanFileButtonPressed")))
+@protocol MEGAASLinkProFeatureSeePlanFileButtonPressed
+@required
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("LinkProFeatureSeePlanFileButtonPressedEvent")))
+@interface MEGAASLinkProFeatureSeePlanFileButtonPressedEvent : MEGAASBase <MEGAASButtonPressedEventIdentifier>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)linkProFeatureSeePlanFileButtonPressedEvent __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MEGAASLinkProFeatureSeePlanFileButtonPressedEvent *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *buttonName __attribute__((swift_name("buttonName")));
+@property (readonly) NSString * _Nullable dialogName __attribute__((swift_name("dialogName")));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSString * _Nullable screenName __attribute__((swift_name("screenName")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
+__attribute__((swift_name("LinkProFeatureSeePlanFileDialog")))
+@protocol MEGAASLinkProFeatureSeePlanFileDialog
+@required
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("LinkProFeatureSeePlanFileDialogEvent")))
+@interface MEGAASLinkProFeatureSeePlanFileDialogEvent : MEGAASBase <MEGAASDialogDisplayedEventIdentifier>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)linkProFeatureSeePlanFileDialogEvent __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MEGAASLinkProFeatureSeePlanFileDialogEvent *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *dialogName __attribute__((swift_name("dialogName")));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSString * _Nullable screenName __attribute__((swift_name("screenName")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
+__attribute__((swift_name("LinkProFeatureSeePlanFolderButtonPressed")))
+@protocol MEGAASLinkProFeatureSeePlanFolderButtonPressed
+@required
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("LinkProFeatureSeePlanFolderButtonPressedEvent")))
+@interface MEGAASLinkProFeatureSeePlanFolderButtonPressedEvent : MEGAASBase <MEGAASButtonPressedEventIdentifier>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)linkProFeatureSeePlanFolderButtonPressedEvent __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MEGAASLinkProFeatureSeePlanFolderButtonPressedEvent *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *buttonName __attribute__((swift_name("buttonName")));
+@property (readonly) NSString * _Nullable dialogName __attribute__((swift_name("dialogName")));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSString * _Nullable screenName __attribute__((swift_name("screenName")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
+__attribute__((swift_name("LinkProFeatureSeePlanFolderDialog")))
+@protocol MEGAASLinkProFeatureSeePlanFolderDialog
+@required
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("LinkProFeatureSeePlanFolderDialogEvent")))
+@interface MEGAASLinkProFeatureSeePlanFolderDialogEvent : MEGAASBase <MEGAASDialogDisplayedEventIdentifier>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)linkProFeatureSeePlanFolderDialogEvent __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MEGAASLinkProFeatureSeePlanFolderDialogEvent *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *dialogName __attribute__((swift_name("dialogName")));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSString * _Nullable screenName __attribute__((swift_name("screenName")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
+__attribute__((swift_name("LinkRemovePasswordFileButtonPressed")))
+@protocol MEGAASLinkRemovePasswordFileButtonPressed
+@required
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("LinkRemovePasswordFileButtonPressedEvent")))
+@interface MEGAASLinkRemovePasswordFileButtonPressedEvent : MEGAASBase <MEGAASButtonPressedEventIdentifier>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)linkRemovePasswordFileButtonPressedEvent __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MEGAASLinkRemovePasswordFileButtonPressedEvent *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *buttonName __attribute__((swift_name("buttonName")));
+@property (readonly) NSString * _Nullable dialogName __attribute__((swift_name("dialogName")));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSString * _Nullable screenName __attribute__((swift_name("screenName")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
+__attribute__((swift_name("LinkRemovePasswordFolderButtonPressed")))
+@protocol MEGAASLinkRemovePasswordFolderButtonPressed
+@required
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("LinkRemovePasswordFolderButtonPressedEvent")))
+@interface MEGAASLinkRemovePasswordFolderButtonPressedEvent : MEGAASBase <MEGAASButtonPressedEventIdentifier>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)linkRemovePasswordFolderButtonPressedEvent __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MEGAASLinkRemovePasswordFolderButtonPressedEvent *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *buttonName __attribute__((swift_name("buttonName")));
+@property (readonly) NSString * _Nullable dialogName __attribute__((swift_name("dialogName")));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSString * _Nullable screenName __attribute__((swift_name("screenName")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
+__attribute__((swift_name("LinkResetPasswordFileButtonPressed")))
+@protocol MEGAASLinkResetPasswordFileButtonPressed
+@required
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("LinkResetPasswordFileButtonPressedEvent")))
+@interface MEGAASLinkResetPasswordFileButtonPressedEvent : MEGAASBase <MEGAASButtonPressedEventIdentifier>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)linkResetPasswordFileButtonPressedEvent __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MEGAASLinkResetPasswordFileButtonPressedEvent *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *buttonName __attribute__((swift_name("buttonName")));
+@property (readonly) NSString * _Nullable dialogName __attribute__((swift_name("dialogName")));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSString * _Nullable screenName __attribute__((swift_name("screenName")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
+__attribute__((swift_name("LinkResetPasswordFolderButtonPressed")))
+@protocol MEGAASLinkResetPasswordFolderButtonPressed
+@required
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("LinkResetPasswordFolderButtonPressedEvent")))
+@interface MEGAASLinkResetPasswordFolderButtonPressedEvent : MEGAASBase <MEGAASButtonPressedEventIdentifier>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)linkResetPasswordFolderButtonPressedEvent __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MEGAASLinkResetPasswordFolderButtonPressedEvent *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *buttonName __attribute__((swift_name("buttonName")));
+@property (readonly) NSString * _Nullable dialogName __attribute__((swift_name("dialogName")));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSString * _Nullable screenName __attribute__((swift_name("screenName")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
+__attribute__((swift_name("LinkSendDecryptionKeyFileButtonPressed")))
+@protocol MEGAASLinkSendDecryptionKeyFileButtonPressed
+@required
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("LinkSendDecryptionKeyFileButtonPressedEvent")))
+@interface MEGAASLinkSendDecryptionKeyFileButtonPressedEvent : MEGAASBase <MEGAASButtonPressedEventIdentifier>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)linkSendDecryptionKeyFileButtonPressedEvent __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MEGAASLinkSendDecryptionKeyFileButtonPressedEvent *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *buttonName __attribute__((swift_name("buttonName")));
+@property (readonly) NSString * _Nullable dialogName __attribute__((swift_name("dialogName")));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSString * _Nullable screenName __attribute__((swift_name("screenName")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
+__attribute__((swift_name("LinkSendDecryptionKeyFolderButtonPressed")))
+@protocol MEGAASLinkSendDecryptionKeyFolderButtonPressed
+@required
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("LinkSendDecryptionKeyFolderButtonPressedEvent")))
+@interface MEGAASLinkSendDecryptionKeyFolderButtonPressedEvent : MEGAASBase <MEGAASButtonPressedEventIdentifier>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)linkSendDecryptionKeyFolderButtonPressedEvent __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MEGAASLinkSendDecryptionKeyFolderButtonPressedEvent *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *buttonName __attribute__((swift_name("buttonName")));
+@property (readonly) NSString * _Nullable dialogName __attribute__((swift_name("dialogName")));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSString * _Nullable screenName __attribute__((swift_name("screenName")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
+__attribute__((swift_name("LinkSetExpiryDateFileButtonPressed")))
+@protocol MEGAASLinkSetExpiryDateFileButtonPressed
+@required
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("LinkSetExpiryDateFileButtonPressedEvent")))
+@interface MEGAASLinkSetExpiryDateFileButtonPressedEvent : MEGAASBase <MEGAASButtonPressedEventIdentifier>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)linkSetExpiryDateFileButtonPressedEvent __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MEGAASLinkSetExpiryDateFileButtonPressedEvent *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *buttonName __attribute__((swift_name("buttonName")));
+@property (readonly) NSString * _Nullable dialogName __attribute__((swift_name("dialogName")));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSString * _Nullable screenName __attribute__((swift_name("screenName")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
+__attribute__((swift_name("LinkSetExpiryDateFolderButtonPressed")))
+@protocol MEGAASLinkSetExpiryDateFolderButtonPressed
+@required
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("LinkSetExpiryDateFolderButtonPressedEvent")))
+@interface MEGAASLinkSetExpiryDateFolderButtonPressedEvent : MEGAASBase <MEGAASButtonPressedEventIdentifier>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)linkSetExpiryDateFolderButtonPressedEvent __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MEGAASLinkSetExpiryDateFolderButtonPressedEvent *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *buttonName __attribute__((swift_name("buttonName")));
+@property (readonly) NSString * _Nullable dialogName __attribute__((swift_name("dialogName")));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSString * _Nullable screenName __attribute__((swift_name("screenName")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
+__attribute__((swift_name("LinkSetPasswordFileButtonPressed")))
+@protocol MEGAASLinkSetPasswordFileButtonPressed
+@required
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("LinkSetPasswordFileButtonPressedEvent")))
+@interface MEGAASLinkSetPasswordFileButtonPressedEvent : MEGAASBase <MEGAASButtonPressedEventIdentifier>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)linkSetPasswordFileButtonPressedEvent __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MEGAASLinkSetPasswordFileButtonPressedEvent *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *buttonName __attribute__((swift_name("buttonName")));
+@property (readonly) NSString * _Nullable dialogName __attribute__((swift_name("dialogName")));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSString * _Nullable screenName __attribute__((swift_name("screenName")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
+__attribute__((swift_name("LinkSetPasswordFolderButtonPressed")))
+@protocol MEGAASLinkSetPasswordFolderButtonPressed
+@required
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("LinkSetPasswordFolderButtonPressedEvent")))
+@interface MEGAASLinkSetPasswordFolderButtonPressedEvent : MEGAASBase <MEGAASButtonPressedEventIdentifier>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)linkSetPasswordFolderButtonPressedEvent __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MEGAASLinkSetPasswordFolderButtonPressedEvent *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *buttonName __attribute__((swift_name("buttonName")));
+@property (readonly) NSString * _Nullable dialogName __attribute__((swift_name("dialogName")));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSString * _Nullable screenName __attribute__((swift_name("screenName")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
+__attribute__((swift_name("LinkShareLinkForNodesMenuItem")))
+@protocol MEGAASLinkShareLinkForNodesMenuItem
+@required
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("LinkShareLinkForNodesMenuItemEvent")))
+@interface MEGAASLinkShareLinkForNodesMenuItemEvent : MEGAASBase <MEGAASMenuItemEventIdentifier>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)linkShareLinkForNodesMenuItemEvent __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MEGAASLinkShareLinkForNodesMenuItemEvent *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSString *menuItem __attribute__((swift_name("menuItem")));
+@property (readonly) NSString *menuType __attribute__((swift_name("menuType")));
+@property (readonly) NSString * _Nullable screenName __attribute__((swift_name("screenName")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
+__attribute__((swift_name("LinkShareLinkForNodesMenuToolbar")))
+@protocol MEGAASLinkShareLinkForNodesMenuToolbar
+@required
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("LinkShareLinkForNodesMenuToolbarEvent")))
+@interface MEGAASLinkShareLinkForNodesMenuToolbarEvent : MEGAASBase <MEGAASMenuItemEventIdentifier>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)linkShareLinkForNodesMenuToolbarEvent __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MEGAASLinkShareLinkForNodesMenuToolbarEvent *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSString *menuItem __attribute__((swift_name("menuItem")));
+@property (readonly) NSString *menuType __attribute__((swift_name("menuType")));
+@property (readonly) NSString * _Nullable screenName __attribute__((swift_name("screenName")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
+__attribute__((swift_name("LinkShareLinkTapFileMenuItem")))
+@protocol MEGAASLinkShareLinkTapFileMenuItem
+@required
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("LinkShareLinkTapFileMenuItemEvent")))
+@interface MEGAASLinkShareLinkTapFileMenuItemEvent : MEGAASBase <MEGAASMenuItemEventIdentifier>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)linkShareLinkTapFileMenuItemEvent __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MEGAASLinkShareLinkTapFileMenuItemEvent *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSString *menuItem __attribute__((swift_name("menuItem")));
+@property (readonly) NSString *menuType __attribute__((swift_name("menuType")));
+@property (readonly) NSString * _Nullable screenName __attribute__((swift_name("screenName")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
+__attribute__((swift_name("LinkShareLinkTapFileMenuToolbar")))
+@protocol MEGAASLinkShareLinkTapFileMenuToolbar
+@required
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("LinkShareLinkTapFileMenuToolbarEvent")))
+@interface MEGAASLinkShareLinkTapFileMenuToolbarEvent : MEGAASBase <MEGAASMenuItemEventIdentifier>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)linkShareLinkTapFileMenuToolbarEvent __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MEGAASLinkShareLinkTapFileMenuToolbarEvent *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSString *menuItem __attribute__((swift_name("menuItem")));
+@property (readonly) NSString *menuType __attribute__((swift_name("menuType")));
+@property (readonly) NSString * _Nullable screenName __attribute__((swift_name("screenName")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
+__attribute__((swift_name("LinkShareLinkTapFolderMenuItem")))
+@protocol MEGAASLinkShareLinkTapFolderMenuItem
+@required
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("LinkShareLinkTapFolderMenuItemEvent")))
+@interface MEGAASLinkShareLinkTapFolderMenuItemEvent : MEGAASBase <MEGAASMenuItemEventIdentifier>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)linkShareLinkTapFolderMenuItemEvent __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MEGAASLinkShareLinkTapFolderMenuItemEvent *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSString *menuItem __attribute__((swift_name("menuItem")));
+@property (readonly) NSString *menuType __attribute__((swift_name("menuType")));
+@property (readonly) NSString * _Nullable screenName __attribute__((swift_name("screenName")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
+__attribute__((swift_name("LinkShareLinkTapFolderMenuToolbar")))
+@protocol MEGAASLinkShareLinkTapFolderMenuToolbar
+@required
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("LinkShareLinkTapFolderMenuToolbarEvent")))
+@interface MEGAASLinkShareLinkTapFolderMenuToolbarEvent : MEGAASBase <MEGAASMenuItemEventIdentifier>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)linkShareLinkTapFolderMenuToolbarEvent __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MEGAASLinkShareLinkTapFolderMenuToolbarEvent *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSString *menuItem __attribute__((swift_name("menuItem")));
+@property (readonly) NSString *menuType __attribute__((swift_name("menuType")));
+@property (readonly) NSString * _Nullable screenName __attribute__((swift_name("screenName")));
 @property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
 @end
 
