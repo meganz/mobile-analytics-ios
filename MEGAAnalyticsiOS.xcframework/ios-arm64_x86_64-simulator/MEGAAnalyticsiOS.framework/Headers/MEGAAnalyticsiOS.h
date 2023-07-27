@@ -203,7 +203,7 @@ __attribute__((swift_name("GeneralEventIdentifier")))
 __attribute__((swift_name("ItemSelectedEventIdentifier")))
 @protocol MEGAAOSItemSelectedEventIdentifier <MEGAAOSEventIdentifier>
 @required
-@property (readonly) NSDictionary<NSString *, id> * _Nullable info __attribute__((swift_name("info")));
+@property (readonly) NSDictionary<NSString *, id> *info __attribute__((swift_name("info")));
 @end
 
 __attribute__((swift_name("MenuItemEventIdentifier")))
