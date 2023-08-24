@@ -2146,7 +2146,7 @@ __attribute__((swift_name("AlbumSelectAllEvent")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("AlbumSelected")))
 @interface MEGAAOSAlbumSelected : MEGAAOSBase
-- (instancetype)initWithSelectionType:(MEGAAOSAlbumSelectedSelectionType *)selectionType __attribute__((swift_name("init(selectionType:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithSelectionType:(MEGAAOSAlbumSelectedSelectionType *)selectionType imageCount:(MEGAAOSInt * _Nullable)imageCount videoCount:(MEGAAOSInt * _Nullable)videoCount __attribute__((swift_name("init(selectionType:imageCount:videoCount:)"))) __attribute__((objc_designated_initializer));
 @property (readonly) MEGAAOSAlbumSelectedSelectionType *selectionType __attribute__((swift_name("selectionType")));
 @end
 
@@ -2165,7 +2165,7 @@ __attribute__((swift_name("AlbumSelected.SelectionType")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("AlbumSelectedEvent")))
 @interface MEGAAOSAlbumSelectedEvent : MEGAAOSBase <MEGAAOSItemSelectedEventIdentifier>
-- (instancetype)initWithSelectionType:(MEGAAOSAlbumSelectedSelectionType *)selectionType __attribute__((swift_name("init(selectionType:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithSelectionType:(MEGAAOSAlbumSelectedSelectionType *)selectionType imageCount:(MEGAAOSInt * _Nullable)imageCount videoCount:(MEGAAOSInt * _Nullable)videoCount __attribute__((swift_name("init(selectionType:imageCount:videoCount:)"))) __attribute__((objc_designated_initializer));
 @property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
 @property (readonly) NSDictionary<NSString *, id> *info __attribute__((swift_name("info")));
 @property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
