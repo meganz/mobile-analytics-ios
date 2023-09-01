@@ -3874,7 +3874,7 @@ __attribute__((swift_name("KotlinByte.Companion")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-/* Stripped for KT-43094: __attribute__((swift_name("KotlinChar.Companion"))) */
+__attribute__((swift_name("KotlinChar.Companion")))
 @interface MEGAAOSKotlinCharCompanion : MEGAAOSBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
@@ -4063,7 +4063,7 @@ __attribute__((swift_name("KotlinShort.Companion")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-/* Stripped for KT-43094: __attribute__((swift_name("KotlinString.Companion"))) */
+__attribute__((swift_name("KotlinString.Companion")))
 @interface MEGAAOSKotlinStringCompanion : MEGAAOSBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
@@ -4158,7 +4158,7 @@ __attribute__((swift_name("KotlinUnit")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-/* Stripped for KT-43094: __attribute__((swift_name("KotlinDuration.Companion"))) */
+__attribute__((swift_name("KotlinDuration.Companion")))
 @interface MEGAAOSKotlinDurationCompanion : MEGAAOSBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
