@@ -6,7 +6,7 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class MEGAAOSAnalyticsEvent, MEGAAOSGeneralEvent, MEGAAOSItemSelectedEvent, MEGAAOSNotificationEvent, MEGAAOSScreenViewEvent, MEGAAOSTabSelectedEvent, MEGAAOSKotlinEnumCompanion, MEGAAOSKotlinEnum<E>, MEGAAOSDecodeSequenceMode, MEGAAOSKotlinArray<T>, MEGAAOSSerializersModule, MEGAAOSJsonDefault, MEGAAOSJsonElement, MEGAAOSJsonConfiguration, MEGAAOSJson, MEGAAOSKotlinNothing, MEGAAOSJsonElementCompanion, MEGAAOSJsonNamingStrategyBuiltins, MEGAAOSJsonPrimitiveCompanion, MEGAAOSJsonPrimitive, MEGAAOSJsonNull, MEGAAOSKotlinByteArray, MEGAAOSKotlinThrowable, MEGAAOSKotlinException, MEGAAOSKotlinRuntimeException, MEGAAOSKotlinIllegalArgumentException, MEGAAOSSerializationException, MEGAAOSAbstractPolymorphicSerializer<T>, MEGAAOSAbstractCollectionSerializer<Element, Collection, Builder>, MEGAAOSTaggedDecoder<Tag>, MEGAAOSTaggedEncoder<Tag>, MEGAAOSSerialKind, MEGAAOSPolymorphicKind, MEGAAOSPolymorphicKindOPEN, MEGAAOSPolymorphicKindSEALED, MEGAAOSPrimitiveKind, MEGAAOSPrimitiveKindBOOLEAN, MEGAAOSPrimitiveKindBYTE, MEGAAOSPrimitiveKindCHAR, MEGAAOSPrimitiveKindDOUBLE, MEGAAOSPrimitiveKindFLOAT, MEGAAOSPrimitiveKindINT, MEGAAOSPrimitiveKindLONG, MEGAAOSPrimitiveKindSHORT, MEGAAOSPrimitiveKindSTRING, MEGAAOSSerialKindCONTEXTUAL, MEGAAOSSerialKindENUM, MEGAAOSStructureKind, MEGAAOSStructureKindCLASS, MEGAAOSStructureKindLIST, MEGAAOSStructureKindMAP, MEGAAOSStructureKindOBJECT, MEGAAOSLongAsStringSerializer, MEGAAOSCompositeDecoderCompanion, MEGAAOSAddItemsToExistingAlbumFABEvent, MEGAAOSAddItemsToNewAlbumButtonEvent, MEGAAOSAddItemsToNewAlbumFABEvent, MEGAAOSAddSubtitleDialogEvent, MEGAAOSAddSubtitlePressedEvent, MEGAAOSAddSubtitlesOptionPressedEvent, MEGAAOSAddSyncScreenEvent, MEGAAOSAlbumAddPhotosFABEvent, MEGAAOSAlbumContentDeleteAlbumEvent, MEGAAOSAlbumContentRemoveItemsEvent, MEGAAOSAlbumContentScreenEvent, MEGAAOSAlbumContentShareLinkMenuToolbarEvent, MEGAAOSAlbumDeselectAllEvent, MEGAAOSAlbumImportInputDecryptionKeyDialogEvent, MEGAAOSAlbumImportSaveToCloudDriveButtonEvent, MEGAAOSAlbumImportSaveToDeviceButtonEvent, MEGAAOSAlbumImportScreenEvent, MEGAAOSAlbumImportStorageOverQuotaDialogEvent, MEGAAOSAlbumListShareLinkMenuItemEvent, MEGAAOSAlbumPhotosSelectionAllLocationsButtonEvent, MEGAAOSAlbumPhotosSelectionCameraUploadsButtonEvent, MEGAAOSAlbumPhotosSelectionCloudDriveButtonEvent, MEGAAOSAlbumPhotosSelectionFilterMenuToolbarEvent, MEGAAOSAlbumPhotosSelectionScreenEvent, MEGAAOSAlbumSelectedSelectionType, MEGAAOSAlbumsListDeleteAlbumsEvent, MEGAAOSAlbumsStorageOverQuotaUpgradeAccountButtonEvent, MEGAAOSAlbumsTabEvent, MEGAAOSAndroidSyncChooseLatestModifiedTimeEvent, MEGAAOSAndroidSyncChooseLocalFileEvent, MEGAAOSAndroidSyncChooseRemoteFileEvent, MEGAAOSAndroidSyncClearResolvedIssuesEvent, MEGAAOSAndroidSyncFABButtonEvent, MEGAAOSAndroidSyncGetStartedButtonEvent, MEGAAOSAndroidSyncMergeFoldersEvent, MEGAAOSAndroidSyncNavigationItemEvent, MEGAAOSAndroidSyncRemoveDuplicatesAndRemoveRestEvent, MEGAAOSAndroidSyncRemoveDuplicatesEvent, MEGAAOSAndroidSyncRenameAllItemsEvent, MEGAAOSAndroidSyncStartSyncButtonEvent, MEGAAOSAutoMatchSubtitleOptionPressedEvent, MEGAAOSCancelSelectSubtitlePressedEvent, MEGAAOSChatConversationAddToCloudDriveActionMenuEvent, MEGAAOSChatConversationCopyActionMenuEvent, MEGAAOSChatConversationDeleteActionMenuEvent, MEGAAOSChatConversationDownloadActionMenuEvent, MEGAAOSChatConversationEditActionMenuEvent, MEGAAOSChatConversationForwardActionMenuEvent, MEGAAOSChatConversationInviteActionMenuEvent, MEGAAOSChatConversationScreenEvent, MEGAAOSChatConversationSendMessageActionMenuEvent, MEGAAOSChatConversationShareActionMenuEvent, MEGAAOSChatScreenEvent, MEGAAOSChatsTabEvent, MEGAAOSCloudDriveScreenEvent, MEGAAOSCloudDriveSearchMenuToolbarEvent, MEGAAOSCreateAlbumDialogButtonPressedEvent, MEGAAOSCreateAlbumFABEvent, MEGAAOSCreateNewAlbumDialogEvent, MEGAAOSDeleteAlbumCancelButtonPressedEvent, MEGAAOSDeleteAlbumConfirmButtonPressedEvent, MEGAAOSDeleteAlbumsConfirmationDialogEvent, MEGAAOSDeviceCenterDeviceOptionsButtonEvent, MEGAAOSDeviceCenterEntrypointButtonEvent, MEGAAOSDeviceCenterItemClickedItemType, MEGAAOSDeviceCenterSaveNewDeviceNameButtonEvent, MEGAAOSForgotPasscodeButtonPressedEvent, MEGAAOSHomeScreenAudioTilePressedEvent, MEGAAOSHomeScreenDocsTilePressedEvent, MEGAAOSHomeScreenEvent, MEGAAOSHomeScreenSearchMenuToolbarEvent, MEGAAOSHomeScreenVideosTilePressedEvent, MEGAAOSIOSStartConversationButtonEvent, MEGAAOSIOSUploadFilesButtonEvent, MEGAAOSImportAlbumContentLoadedEvent, MEGAAOSInAppUpdateCancelButtonPressedEvent, MEGAAOSInAppUpdateDownloadSuccessMessageDisplayedEvent, MEGAAOSInAppUpdateRestartButtonPressedEvent, MEGAAOSInAppUpdateUpdateButtonPressedEvent, MEGAAOSIncomingSharesTabEvent, MEGAAOSLinkConfirmPasswordFileButtonPressedEvent, MEGAAOSLinkConfirmPasswordFolderButtonPressedEvent, MEGAAOSLinkGetLinkForNodesMenuItemEvent, MEGAAOSLinkGetLinkForNodesMenuToolbarEvent, MEGAAOSLinkManageLinkTapFileMenuItemEvent, MEGAAOSLinkManageLinkTapFileMenuToolbarEvent, MEGAAOSLinkManageLinkTapFolderMenuItemEvent, MEGAAOSLinkManageLinkTapFolderMenuToolbarEvent, MEGAAOSLinkProFeatureSeeNotNowPlanFileButtonPressedEvent, MEGAAOSLinkProFeatureSeeNotNowPlanFileDialogEvent, MEGAAOSLinkProFeatureSeeNotNowPlanFolderButtonPressedEvent, MEGAAOSLinkProFeatureSeeNotNowPlanFolderDialogEvent, MEGAAOSLinkProFeatureSeePlanFileButtonPressedEvent, MEGAAOSLinkProFeatureSeePlanFileDialogEvent, MEGAAOSLinkProFeatureSeePlanFolderButtonPressedEvent, MEGAAOSLinkProFeatureSeePlanFolderDialogEvent, MEGAAOSLinkRemovePasswordFileButtonPressedEvent, MEGAAOSLinkRemovePasswordFolderButtonPressedEvent, MEGAAOSLinkResetPasswordFileButtonPressedEvent, MEGAAOSLinkResetPasswordFolderButtonPressedEvent, MEGAAOSLinkSendDecryptionKeyFileButtonPressedEvent, MEGAAOSLinkSendDecryptionKeyFolderButtonPressedEvent, MEGAAOSLinkSetExpiryDateFileButtonPressedEvent, MEGAAOSLinkSetExpiryDateFolderButtonPressedEvent, MEGAAOSLinkSetPasswordFileButtonPressedEvent, MEGAAOSLinkSetPasswordFolderButtonPressedEvent, MEGAAOSLinkShareLinkForNodesMenuItemEvent, MEGAAOSLinkShareLinkForNodesMenuToolbarEvent, MEGAAOSLinkShareLinkTapFileMenuItemEvent, MEGAAOSLinkShareLinkTapFileMenuToolbarEvent, MEGAAOSLinkShareLinkTapFolderMenuItemEvent, MEGAAOSLinkShareLinkTapFolderMenuToolbarEvent, MEGAAOSLinkSharesTabEvent, MEGAAOSLockButtonPressedEvent, MEGAAOSLoopButtonPressedEvent, MEGAAOSMeetingsTabEvent, MEGAAOSMultipleAlbumLinksScreenEvent, MEGAAOSOffOptionForHideSubtitlePressedEvent, MEGAAOSOfflineTabEvent, MEGAAOSOnboardingUpsellingDialogVariantAViewProPlansButtonEvent, MEGAAOSOnboardingUpsellingDialogVariantBBuyProPlanButtonEvent, MEGAAOSOnboardingUpsellingDialogVariantBProPlanIIIDisplayedEvent, MEGAAOSOutgoingSharesTabEvent, MEGAAOSPasscodeBiometricUnlockDialogEvent, MEGAAOSPasscodeEnteredEvent, MEGAAOSPasscodeLogoutButtonPressedEvent, MEGAAOSPasscodeScreenEvent, MEGAAOSPasscodeSettingScreenEvent, MEGAAOSPasscodeUnlockDialogEvent, MEGAAOSPhotoItemSelectedSelectionType, MEGAAOSPhotoPreviewSaveToDeviceMenuToolbarEvent, MEGAAOSPhotoPreviewScreenEvent, MEGAAOSPhotoScreenEvent, MEGAAOSPlaySlideshowMenuToolbarEvent, MEGAAOSRecentsTabEvent, MEGAAOSRemoveItemsFromAlbumDialogButtonEvent, MEGAAOSRemoveLinksConfirmationDialogEvent, MEGAAOSScheduleMeetingMenuItemEvent, MEGAAOSScheduledMeetingCancelMenuItemEvent, MEGAAOSScheduledMeetingCreateConfirmButtonEvent, MEGAAOSScheduledMeetingEditMenuItemEvent, MEGAAOSScheduledMeetingEditMenuToolbarEvent, MEGAAOSScheduledMeetingJoinGuestButtonEvent, MEGAAOSScheduledMeetingReminderNotificationJoinButtonEvent, MEGAAOSScheduledMeetingReminderNotificationMessageButtonEvent, MEGAAOSScheduledMeetingSettingEnableMeetingLinkButtonEvent, MEGAAOSScheduledMeetingSettingEnableOpenInviteButtonEvent, MEGAAOSScheduledMeetingSettingRecurrenceButtonEvent, MEGAAOSScheduledMeetingSettingSendCalendarInviteButtonEvent, MEGAAOSScheduledMeetingShareMeetingLinkButtonEvent, MEGAAOSSearchAudioFilterPressedEvent, MEGAAOSSearchDocsFilterPressedEvent, MEGAAOSSearchImageFilterPressedEvent, MEGAAOSSearchItemSelectedSearchItemType, MEGAAOSSearchModeEnablePressedEvent, MEGAAOSSearchResetFilterPressedEvent, MEGAAOSSearchResultGetLinkMenuItemEvent, MEGAAOSSearchResultOpenWithMenuItemEvent, MEGAAOSSearchResultOverflowMenuItemEvent, MEGAAOSSearchResultSaveToDeviceMenuItemEvent, MEGAAOSSearchResultShareMenuItemEvent, MEGAAOSSearchVideosFilterPressedEvent, MEGAAOSSharedItemsScreenEvent, MEGAAOSSingleAlbumLinkScreenEvent, MEGAAOSSlideShowScreenEvent, MEGAAOSSlideshowSettingOrderNewestButtonEvent, MEGAAOSSlideshowSettingOrderOldestButtonEvent, MEGAAOSSlideshowSettingOrderShuffleButtonEvent, MEGAAOSSlideshowSettingRepeatOffButtonEvent, MEGAAOSSlideshowSettingRepeatOnButtonEvent, MEGAAOSSlideshowSettingSpeedFastButtonEvent, MEGAAOSSlideshowSettingSpeedNormalButtonEvent, MEGAAOSSlideshowSettingSpeedSlowButtonEvent, MEGAAOSSnapshotButtonPressedEvent, MEGAAOSSpeedOption0_5XPressedEvent, MEGAAOSSpeedOption1_5XPressedEvent, MEGAAOSSpeedOption2XPressedEvent, MEGAAOSSpeedSelectedDialogEvent, MEGAAOSSyncOptionSelectedSelectionType, MEGAAOSTimelineTabEvent, MEGAAOSTransferOverQuotaDialogEvent, MEGAAOSTransferOverQuotaUpgradeAccountButtonEvent, MEGAAOSUnlockButtonPressedEvent, MEGAAOSVideoPlayerFullScreenPressedEvent, MEGAAOSVideoPlayerGetLinkMenuToolbarEvent, MEGAAOSVideoPlayerInfoMenuItemEvent, MEGAAOSVideoPlayerIsActivatedEvent, MEGAAOSVideoPlayerOriginalPressedEvent, MEGAAOSVideoPlayerRemoveLinkMenuToolbarEvent, MEGAAOSVideoPlayerSaveToDeviceMenuToolbarEvent, MEGAAOSVideoPlayerScreenEvent, MEGAAOSVideoPlayerSendToChatMenuToolbarEvent, MEGAAOSVideoPlayerShareMenuToolbarEvent, MEGAAOSWaitingRoomEnableButtonEvent, MEGAAOSWaitingRoomLeaveButtonEvent, MEGAAOSWaitingRoomTimeoutEvent, MEGAAOSJsonArrayBuilder, MEGAAOSJsonObjectBuilder, MEGAAOSSerializersModuleBuilder, MEGAAOSPolymorphicModuleBuilder<__contravariant Base>, MEGAAOSClassSerialDescriptorBuilder, MEGAAOSKotlinBooleanCompanion, MEGAAOSKotlinByteCompanion, MEGAAOSKotlinCharCompanion, MEGAAOSKotlinDoubleCompanion, MEGAAOSKotlinFloatCompanion, MEGAAOSKotlinIntCompanion, MEGAAOSKotlinLongCompanion, MEGAAOSKotlinShortCompanion, MEGAAOSKotlinStringCompanion, MEGAAOSKotlinUByteCompanion, MEGAAOSKotlinUIntCompanion, MEGAAOSKotlinULongCompanion, MEGAAOSKotlinUShortCompanion, MEGAAOSKotlinUnit, MEGAAOSKotlinDurationCompanion, MEGAAOSKotlinDurationUnit, MEGAAOSJsonBuilder, MEGAAOSKotlinIntArray, MEGAAOSKotlinIllegalStateException, MEGAAOSKotlinByteIterator, MEGAAOSKotlinKTypeProjection, MEGAAOSKotlinIntIterator, MEGAAOSKotlinKVariance, MEGAAOSKotlinKTypeProjectionCompanion;
+@class MEGAAOSAnalyticsEvent, MEGAAOSGeneralEvent, MEGAAOSItemSelectedEvent, MEGAAOSNotificationEvent, MEGAAOSScreenViewEvent, MEGAAOSTabSelectedEvent, MEGAAOSKotlinEnumCompanion, MEGAAOSKotlinEnum<E>, MEGAAOSDecodeSequenceMode, MEGAAOSKotlinArray<T>, MEGAAOSSerializersModule, MEGAAOSJsonDefault, MEGAAOSJsonElement, MEGAAOSJsonConfiguration, MEGAAOSJson, MEGAAOSKotlinNothing, MEGAAOSJsonElementCompanion, MEGAAOSJsonNamingStrategyBuiltins, MEGAAOSJsonPrimitiveCompanion, MEGAAOSJsonPrimitive, MEGAAOSJsonNull, MEGAAOSKotlinByteArray, MEGAAOSKotlinThrowable, MEGAAOSKotlinException, MEGAAOSKotlinRuntimeException, MEGAAOSKotlinIllegalArgumentException, MEGAAOSSerializationException, MEGAAOSAbstractPolymorphicSerializer<T>, MEGAAOSAbstractCollectionSerializer<Element, Collection, Builder>, MEGAAOSTaggedDecoder<Tag>, MEGAAOSTaggedEncoder<Tag>, MEGAAOSSerialKind, MEGAAOSPolymorphicKind, MEGAAOSPolymorphicKindOPEN, MEGAAOSPolymorphicKindSEALED, MEGAAOSPrimitiveKind, MEGAAOSPrimitiveKindBOOLEAN, MEGAAOSPrimitiveKindBYTE, MEGAAOSPrimitiveKindCHAR, MEGAAOSPrimitiveKindDOUBLE, MEGAAOSPrimitiveKindFLOAT, MEGAAOSPrimitiveKindINT, MEGAAOSPrimitiveKindLONG, MEGAAOSPrimitiveKindSHORT, MEGAAOSPrimitiveKindSTRING, MEGAAOSSerialKindCONTEXTUAL, MEGAAOSSerialKindENUM, MEGAAOSStructureKind, MEGAAOSStructureKindCLASS, MEGAAOSStructureKindLIST, MEGAAOSStructureKindMAP, MEGAAOSStructureKindOBJECT, MEGAAOSLongAsStringSerializer, MEGAAOSCompositeDecoderCompanion, MEGAAOSAddItemsToExistingAlbumFABEvent, MEGAAOSAddItemsToNewAlbumButtonEvent, MEGAAOSAddItemsToNewAlbumFABEvent, MEGAAOSAddSubtitleDialogEvent, MEGAAOSAddSubtitlePressedEvent, MEGAAOSAddSubtitlesOptionPressedEvent, MEGAAOSAddSyncScreenEvent, MEGAAOSAlbumAddPhotosFABEvent, MEGAAOSAlbumContentDeleteAlbumEvent, MEGAAOSAlbumContentRemoveItemsEvent, MEGAAOSAlbumContentScreenEvent, MEGAAOSAlbumContentShareLinkMenuToolbarEvent, MEGAAOSAlbumDeselectAllEvent, MEGAAOSAlbumImportInputDecryptionKeyDialogEvent, MEGAAOSAlbumImportSaveToCloudDriveButtonEvent, MEGAAOSAlbumImportSaveToDeviceButtonEvent, MEGAAOSAlbumImportScreenEvent, MEGAAOSAlbumImportStorageOverQuotaDialogEvent, MEGAAOSAlbumListShareLinkMenuItemEvent, MEGAAOSAlbumPhotosSelectionAllLocationsButtonEvent, MEGAAOSAlbumPhotosSelectionCameraUploadsButtonEvent, MEGAAOSAlbumPhotosSelectionCloudDriveButtonEvent, MEGAAOSAlbumPhotosSelectionFilterMenuToolbarEvent, MEGAAOSAlbumPhotosSelectionScreenEvent, MEGAAOSAlbumSelectedSelectionType, MEGAAOSAlbumsListDeleteAlbumsEvent, MEGAAOSAlbumsStorageOverQuotaUpgradeAccountButtonEvent, MEGAAOSAlbumsTabEvent, MEGAAOSAndroidSyncChooseLatestModifiedTimeEvent, MEGAAOSAndroidSyncChooseLocalFileEvent, MEGAAOSAndroidSyncChooseRemoteFileEvent, MEGAAOSAndroidSyncClearResolvedIssuesEvent, MEGAAOSAndroidSyncFABButtonEvent, MEGAAOSAndroidSyncGetStartedButtonEvent, MEGAAOSAndroidSyncMergeFoldersEvent, MEGAAOSAndroidSyncNavigationItemEvent, MEGAAOSAndroidSyncRemoveDuplicatesAndRemoveRestEvent, MEGAAOSAndroidSyncRemoveDuplicatesEvent, MEGAAOSAndroidSyncRenameAllItemsEvent, MEGAAOSAndroidSyncStartSyncButtonEvent, MEGAAOSAutoMatchSubtitleOptionPressedEvent, MEGAAOSCancelSelectSubtitlePressedEvent, MEGAAOSChatConversationAddParticipantsMenuToolbarEvent, MEGAAOSChatConversationAddToCloudDriveActionMenuEvent, MEGAAOSChatConversationArchiveMenuToolbarEvent, MEGAAOSChatConversationCallMenuToolbarEvent, MEGAAOSChatConversationClearMenuToolbarEvent, MEGAAOSChatConversationCopyActionMenuEvent, MEGAAOSChatConversationDeleteActionMenuEvent, MEGAAOSChatConversationDownloadActionMenuEvent, MEGAAOSChatConversationEditActionMenuEvent, MEGAAOSChatConversationEndCallForAllMenuToolbarEvent, MEGAAOSChatConversationForwardActionMenuEvent, MEGAAOSChatConversationHomeUpMenuToolbarEvent, MEGAAOSChatConversationInfoMenuToolbarEvent, MEGAAOSChatConversationInviteActionMenuEvent, MEGAAOSChatConversationLeaveMenuToolbarEvent, MEGAAOSChatConversationMuteMenuToolbarEvent, MEGAAOSChatConversationScreenEvent, MEGAAOSChatConversationSelectMenuToolbarEvent, MEGAAOSChatConversationSendMessageActionMenuEvent, MEGAAOSChatConversationShareActionMenuEvent, MEGAAOSChatConversationUnmuteMenuToolbarEvent, MEGAAOSChatConversationVideoMenuToolbarEvent, MEGAAOSChatScreenEvent, MEGAAOSChatsTabEvent, MEGAAOSCloudDriveScreenEvent, MEGAAOSCloudDriveSearchMenuToolbarEvent, MEGAAOSCreateAlbumDialogButtonPressedEvent, MEGAAOSCreateAlbumFABEvent, MEGAAOSCreateNewAlbumDialogEvent, MEGAAOSDeleteAlbumCancelButtonPressedEvent, MEGAAOSDeleteAlbumConfirmButtonPressedEvent, MEGAAOSDeleteAlbumsConfirmationDialogEvent, MEGAAOSDeviceCenterDeviceOptionsButtonEvent, MEGAAOSDeviceCenterEntrypointButtonEvent, MEGAAOSDeviceCenterItemClickedItemType, MEGAAOSDeviceCenterSaveNewDeviceNameButtonEvent, MEGAAOSForgotPasscodeButtonPressedEvent, MEGAAOSHomeScreenAudioTilePressedEvent, MEGAAOSHomeScreenDocsTilePressedEvent, MEGAAOSHomeScreenEvent, MEGAAOSHomeScreenSearchMenuToolbarEvent, MEGAAOSHomeScreenVideosTilePressedEvent, MEGAAOSIOSStartConversationButtonEvent, MEGAAOSIOSUploadFilesButtonEvent, MEGAAOSImportAlbumContentLoadedEvent, MEGAAOSInAppUpdateCancelButtonPressedEvent, MEGAAOSInAppUpdateDownloadSuccessMessageDisplayedEvent, MEGAAOSInAppUpdateRestartButtonPressedEvent, MEGAAOSInAppUpdateUpdateButtonPressedEvent, MEGAAOSIncomingSharesTabEvent, MEGAAOSLinkConfirmPasswordFileButtonPressedEvent, MEGAAOSLinkConfirmPasswordFolderButtonPressedEvent, MEGAAOSLinkGetLinkForNodesMenuItemEvent, MEGAAOSLinkGetLinkForNodesMenuToolbarEvent, MEGAAOSLinkManageLinkTapFileMenuItemEvent, MEGAAOSLinkManageLinkTapFileMenuToolbarEvent, MEGAAOSLinkManageLinkTapFolderMenuItemEvent, MEGAAOSLinkManageLinkTapFolderMenuToolbarEvent, MEGAAOSLinkProFeatureSeeNotNowPlanFileButtonPressedEvent, MEGAAOSLinkProFeatureSeeNotNowPlanFileDialogEvent, MEGAAOSLinkProFeatureSeeNotNowPlanFolderButtonPressedEvent, MEGAAOSLinkProFeatureSeeNotNowPlanFolderDialogEvent, MEGAAOSLinkProFeatureSeePlanFileButtonPressedEvent, MEGAAOSLinkProFeatureSeePlanFileDialogEvent, MEGAAOSLinkProFeatureSeePlanFolderButtonPressedEvent, MEGAAOSLinkProFeatureSeePlanFolderDialogEvent, MEGAAOSLinkRemovePasswordFileButtonPressedEvent, MEGAAOSLinkRemovePasswordFolderButtonPressedEvent, MEGAAOSLinkResetPasswordFileButtonPressedEvent, MEGAAOSLinkResetPasswordFolderButtonPressedEvent, MEGAAOSLinkSendDecryptionKeyFileButtonPressedEvent, MEGAAOSLinkSendDecryptionKeyFolderButtonPressedEvent, MEGAAOSLinkSetExpiryDateFileButtonPressedEvent, MEGAAOSLinkSetExpiryDateFolderButtonPressedEvent, MEGAAOSLinkSetPasswordFileButtonPressedEvent, MEGAAOSLinkSetPasswordFolderButtonPressedEvent, MEGAAOSLinkShareLinkForNodesMenuItemEvent, MEGAAOSLinkShareLinkForNodesMenuToolbarEvent, MEGAAOSLinkShareLinkTapFileMenuItemEvent, MEGAAOSLinkShareLinkTapFileMenuToolbarEvent, MEGAAOSLinkShareLinkTapFolderMenuItemEvent, MEGAAOSLinkShareLinkTapFolderMenuToolbarEvent, MEGAAOSLinkSharesTabEvent, MEGAAOSLockButtonPressedEvent, MEGAAOSLoopButtonPressedEvent, MEGAAOSMeetingsTabEvent, MEGAAOSMultipleAlbumLinksScreenEvent, MEGAAOSOffOptionForHideSubtitlePressedEvent, MEGAAOSOfflineTabEvent, MEGAAOSOnboardingUpsellingDialogVariantAViewProPlansButtonEvent, MEGAAOSOnboardingUpsellingDialogVariantBBuyProPlanButtonEvent, MEGAAOSOnboardingUpsellingDialogVariantBProPlanIIIDisplayedEvent, MEGAAOSOutgoingSharesTabEvent, MEGAAOSPasscodeBiometricUnlockDialogEvent, MEGAAOSPasscodeEnteredEvent, MEGAAOSPasscodeLogoutButtonPressedEvent, MEGAAOSPasscodeScreenEvent, MEGAAOSPasscodeSettingScreenEvent, MEGAAOSPasscodeUnlockDialogEvent, MEGAAOSPhotoItemSelectedSelectionType, MEGAAOSPhotoPreviewSaveToDeviceMenuToolbarEvent, MEGAAOSPhotoPreviewScreenEvent, MEGAAOSPhotoScreenEvent, MEGAAOSPlaySlideshowMenuToolbarEvent, MEGAAOSRecentsTabEvent, MEGAAOSRemoveItemsFromAlbumDialogButtonEvent, MEGAAOSRemoveLinksConfirmationDialogEvent, MEGAAOSScheduleMeetingMenuItemEvent, MEGAAOSScheduledMeetingCancelMenuItemEvent, MEGAAOSScheduledMeetingCreateConfirmButtonEvent, MEGAAOSScheduledMeetingEditMenuItemEvent, MEGAAOSScheduledMeetingEditMenuToolbarEvent, MEGAAOSScheduledMeetingJoinGuestButtonEvent, MEGAAOSScheduledMeetingReminderNotificationJoinButtonEvent, MEGAAOSScheduledMeetingReminderNotificationMessageButtonEvent, MEGAAOSScheduledMeetingSettingEnableMeetingLinkButtonEvent, MEGAAOSScheduledMeetingSettingEnableOpenInviteButtonEvent, MEGAAOSScheduledMeetingSettingRecurrenceButtonEvent, MEGAAOSScheduledMeetingSettingSendCalendarInviteButtonEvent, MEGAAOSScheduledMeetingShareMeetingLinkButtonEvent, MEGAAOSSearchAudioFilterPressedEvent, MEGAAOSSearchDocsFilterPressedEvent, MEGAAOSSearchImageFilterPressedEvent, MEGAAOSSearchItemSelectedSearchItemType, MEGAAOSSearchModeEnablePressedEvent, MEGAAOSSearchResetFilterPressedEvent, MEGAAOSSearchResultGetLinkMenuItemEvent, MEGAAOSSearchResultOpenWithMenuItemEvent, MEGAAOSSearchResultOverflowMenuItemEvent, MEGAAOSSearchResultSaveToDeviceMenuItemEvent, MEGAAOSSearchResultShareMenuItemEvent, MEGAAOSSearchVideosFilterPressedEvent, MEGAAOSSharedItemsScreenEvent, MEGAAOSSingleAlbumLinkScreenEvent, MEGAAOSSlideShowScreenEvent, MEGAAOSSlideshowSettingOrderNewestButtonEvent, MEGAAOSSlideshowSettingOrderOldestButtonEvent, MEGAAOSSlideshowSettingOrderShuffleButtonEvent, MEGAAOSSlideshowSettingRepeatOffButtonEvent, MEGAAOSSlideshowSettingRepeatOnButtonEvent, MEGAAOSSlideshowSettingSpeedFastButtonEvent, MEGAAOSSlideshowSettingSpeedNormalButtonEvent, MEGAAOSSlideshowSettingSpeedSlowButtonEvent, MEGAAOSSnapshotButtonPressedEvent, MEGAAOSSpeedOption0_5XPressedEvent, MEGAAOSSpeedOption1_5XPressedEvent, MEGAAOSSpeedOption2XPressedEvent, MEGAAOSSpeedSelectedDialogEvent, MEGAAOSSyncOptionSelectedSelectionType, MEGAAOSTimelineTabEvent, MEGAAOSTransferOverQuotaDialogEvent, MEGAAOSTransferOverQuotaUpgradeAccountButtonEvent, MEGAAOSUnlockButtonPressedEvent, MEGAAOSVideoPlayerFullScreenPressedEvent, MEGAAOSVideoPlayerGetLinkMenuToolbarEvent, MEGAAOSVideoPlayerInfoMenuItemEvent, MEGAAOSVideoPlayerIsActivatedEvent, MEGAAOSVideoPlayerOriginalPressedEvent, MEGAAOSVideoPlayerRemoveLinkMenuToolbarEvent, MEGAAOSVideoPlayerSaveToDeviceMenuToolbarEvent, MEGAAOSVideoPlayerScreenEvent, MEGAAOSVideoPlayerSendToChatMenuToolbarEvent, MEGAAOSVideoPlayerShareMenuToolbarEvent, MEGAAOSWaitingRoomEnableButtonEvent, MEGAAOSWaitingRoomLeaveButtonEvent, MEGAAOSWaitingRoomTimeoutEvent, MEGAAOSJsonArrayBuilder, MEGAAOSJsonObjectBuilder, MEGAAOSSerializersModuleBuilder, MEGAAOSPolymorphicModuleBuilder<__contravariant Base>, MEGAAOSClassSerialDescriptorBuilder, MEGAAOSKotlinBooleanCompanion, MEGAAOSKotlinByteCompanion, MEGAAOSKotlinCharCompanion, MEGAAOSKotlinDoubleCompanion, MEGAAOSKotlinFloatCompanion, MEGAAOSKotlinIntCompanion, MEGAAOSKotlinLongCompanion, MEGAAOSKotlinShortCompanion, MEGAAOSKotlinStringCompanion, MEGAAOSKotlinUByteCompanion, MEGAAOSKotlinUIntCompanion, MEGAAOSKotlinULongCompanion, MEGAAOSKotlinUShortCompanion, MEGAAOSKotlinUnit, MEGAAOSKotlinDurationCompanion, MEGAAOSKotlinDurationUnit, MEGAAOSJsonBuilder, MEGAAOSKotlinIntArray, MEGAAOSKotlinIllegalStateException, MEGAAOSKotlinByteIterator, MEGAAOSKotlinKTypeProjection, MEGAAOSKotlinIntIterator, MEGAAOSKotlinKVariance, MEGAAOSKotlinKTypeProjectionCompanion;
 
 @protocol MEGAAOSPlatform, MEGAAOSKotlinSuspendFunction0, MEGAAOSEventIdentifier, MEGAAOSEventDataMapper, MEGAAOSButtonPressedEventIdentifier, MEGAAOSDialogDisplayedEventIdentifier, MEGAAOSGeneralEventIdentifier, MEGAAOSItemSelectedEventIdentifier, MEGAAOSMenuItemEventIdentifier, MEGAAOSNavigationEventIdentifier, MEGAAOSNotificationEventIdentifier, MEGAAOSScreenViewEventIdentifier, MEGAAOSTabSelectedEventIdentifier, MEGAAOSKotlinComparable, MEGAAOSDeserializationStrategy, MEGAAOSSerializationStrategy, MEGAAOSSerialFormat, MEGAAOSStringFormat, MEGAAOSJsonNamingStrategy, MEGAAOSEncoder, MEGAAOSSerialDescriptor, MEGAAOSDecoder, MEGAAOSKSerializer, MEGAAOSKotlinKClass, MEGAAOSCompositeDecoder, MEGAAOSCompositeEncoder, MEGAAOSKotlinIterator, MEGAAOSKotlinMapEntry, MEGAAOSSerializersModuleCollector, MEGAAOSKotlinAnnotation, MEGAAOSViewIdProvider, MEGAAOSEventSender, MEGAAOSKotlinKType, MEGAAOSBinaryFormat, MEGAAOSKotlinFunction, MEGAAOSKotlinKDeclarationContainer, MEGAAOSKotlinKAnnotatedElement, MEGAAOSKotlinKClassifier;
 
@@ -2832,6 +2832,25 @@ __attribute__((swift_name("CancelSelectSubtitlePressedEvent")))
 @property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
 @end
 
+__attribute__((swift_name("ChatConversationAddParticipantsMenuToolbar")))
+@protocol MEGAAOSChatConversationAddParticipantsMenuToolbar
+@required
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ChatConversationAddParticipantsMenuToolbarEvent")))
+@interface MEGAAOSChatConversationAddParticipantsMenuToolbarEvent : MEGAAOSBase <MEGAAOSMenuItemEventIdentifier>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)chatConversationAddParticipantsMenuToolbarEvent __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MEGAAOSChatConversationAddParticipantsMenuToolbarEvent *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSString *menuItem __attribute__((swift_name("menuItem")));
+@property (readonly) NSString *menuType __attribute__((swift_name("menuType")));
+@property (readonly) NSString * _Nullable screenName __attribute__((swift_name("screenName")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
 __attribute__((swift_name("ChatConversationAddToCloudDriveActionMenu")))
 @protocol MEGAAOSChatConversationAddToCloudDriveActionMenu
 @required
@@ -2844,6 +2863,63 @@ __attribute__((swift_name("ChatConversationAddToCloudDriveActionMenuEvent")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)chatConversationAddToCloudDriveActionMenuEvent __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) MEGAAOSChatConversationAddToCloudDriveActionMenuEvent *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSString *menuItem __attribute__((swift_name("menuItem")));
+@property (readonly) NSString *menuType __attribute__((swift_name("menuType")));
+@property (readonly) NSString * _Nullable screenName __attribute__((swift_name("screenName")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
+__attribute__((swift_name("ChatConversationArchiveMenuToolbar")))
+@protocol MEGAAOSChatConversationArchiveMenuToolbar
+@required
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ChatConversationArchiveMenuToolbarEvent")))
+@interface MEGAAOSChatConversationArchiveMenuToolbarEvent : MEGAAOSBase <MEGAAOSMenuItemEventIdentifier>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)chatConversationArchiveMenuToolbarEvent __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MEGAAOSChatConversationArchiveMenuToolbarEvent *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSString *menuItem __attribute__((swift_name("menuItem")));
+@property (readonly) NSString *menuType __attribute__((swift_name("menuType")));
+@property (readonly) NSString * _Nullable screenName __attribute__((swift_name("screenName")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
+__attribute__((swift_name("ChatConversationCallMenuToolbar")))
+@protocol MEGAAOSChatConversationCallMenuToolbar
+@required
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ChatConversationCallMenuToolbarEvent")))
+@interface MEGAAOSChatConversationCallMenuToolbarEvent : MEGAAOSBase <MEGAAOSMenuItemEventIdentifier>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)chatConversationCallMenuToolbarEvent __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MEGAAOSChatConversationCallMenuToolbarEvent *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSString *menuItem __attribute__((swift_name("menuItem")));
+@property (readonly) NSString *menuType __attribute__((swift_name("menuType")));
+@property (readonly) NSString * _Nullable screenName __attribute__((swift_name("screenName")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
+__attribute__((swift_name("ChatConversationClearMenuToolbar")))
+@protocol MEGAAOSChatConversationClearMenuToolbar
+@required
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ChatConversationClearMenuToolbarEvent")))
+@interface MEGAAOSChatConversationClearMenuToolbarEvent : MEGAAOSBase <MEGAAOSMenuItemEventIdentifier>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)chatConversationClearMenuToolbarEvent __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MEGAAOSChatConversationClearMenuToolbarEvent *shared __attribute__((swift_name("shared")));
 @property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
 @property (readonly) NSString *menuItem __attribute__((swift_name("menuItem")));
 @property (readonly) NSString *menuType __attribute__((swift_name("menuType")));
@@ -2927,6 +3003,25 @@ __attribute__((swift_name("ChatConversationEditActionMenuEvent")))
 @property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
 @end
 
+__attribute__((swift_name("ChatConversationEndCallForAllMenuToolbar")))
+@protocol MEGAAOSChatConversationEndCallForAllMenuToolbar
+@required
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ChatConversationEndCallForAllMenuToolbarEvent")))
+@interface MEGAAOSChatConversationEndCallForAllMenuToolbarEvent : MEGAAOSBase <MEGAAOSMenuItemEventIdentifier>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)chatConversationEndCallForAllMenuToolbarEvent __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MEGAAOSChatConversationEndCallForAllMenuToolbarEvent *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSString *menuItem __attribute__((swift_name("menuItem")));
+@property (readonly) NSString *menuType __attribute__((swift_name("menuType")));
+@property (readonly) NSString * _Nullable screenName __attribute__((swift_name("screenName")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
 __attribute__((swift_name("ChatConversationForwardActionMenu")))
 @protocol MEGAAOSChatConversationForwardActionMenu
 @required
@@ -2939,6 +3034,44 @@ __attribute__((swift_name("ChatConversationForwardActionMenuEvent")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)chatConversationForwardActionMenuEvent __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) MEGAAOSChatConversationForwardActionMenuEvent *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSString *menuItem __attribute__((swift_name("menuItem")));
+@property (readonly) NSString *menuType __attribute__((swift_name("menuType")));
+@property (readonly) NSString * _Nullable screenName __attribute__((swift_name("screenName")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
+__attribute__((swift_name("ChatConversationHomeUpMenuToolbar")))
+@protocol MEGAAOSChatConversationHomeUpMenuToolbar
+@required
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ChatConversationHomeUpMenuToolbarEvent")))
+@interface MEGAAOSChatConversationHomeUpMenuToolbarEvent : MEGAAOSBase <MEGAAOSMenuItemEventIdentifier>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)chatConversationHomeUpMenuToolbarEvent __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MEGAAOSChatConversationHomeUpMenuToolbarEvent *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSString *menuItem __attribute__((swift_name("menuItem")));
+@property (readonly) NSString *menuType __attribute__((swift_name("menuType")));
+@property (readonly) NSString * _Nullable screenName __attribute__((swift_name("screenName")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
+__attribute__((swift_name("ChatConversationInfoMenuToolbar")))
+@protocol MEGAAOSChatConversationInfoMenuToolbar
+@required
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ChatConversationInfoMenuToolbarEvent")))
+@interface MEGAAOSChatConversationInfoMenuToolbarEvent : MEGAAOSBase <MEGAAOSMenuItemEventIdentifier>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)chatConversationInfoMenuToolbarEvent __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MEGAAOSChatConversationInfoMenuToolbarEvent *shared __attribute__((swift_name("shared")));
 @property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
 @property (readonly) NSString *menuItem __attribute__((swift_name("menuItem")));
 @property (readonly) NSString *menuType __attribute__((swift_name("menuType")));
@@ -2965,6 +3098,44 @@ __attribute__((swift_name("ChatConversationInviteActionMenuEvent")))
 @property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
 @end
 
+__attribute__((swift_name("ChatConversationLeaveMenuToolbar")))
+@protocol MEGAAOSChatConversationLeaveMenuToolbar
+@required
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ChatConversationLeaveMenuToolbarEvent")))
+@interface MEGAAOSChatConversationLeaveMenuToolbarEvent : MEGAAOSBase <MEGAAOSMenuItemEventIdentifier>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)chatConversationLeaveMenuToolbarEvent __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MEGAAOSChatConversationLeaveMenuToolbarEvent *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSString *menuItem __attribute__((swift_name("menuItem")));
+@property (readonly) NSString *menuType __attribute__((swift_name("menuType")));
+@property (readonly) NSString * _Nullable screenName __attribute__((swift_name("screenName")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
+__attribute__((swift_name("ChatConversationMuteMenuToolbar")))
+@protocol MEGAAOSChatConversationMuteMenuToolbar
+@required
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ChatConversationMuteMenuToolbarEvent")))
+@interface MEGAAOSChatConversationMuteMenuToolbarEvent : MEGAAOSBase <MEGAAOSMenuItemEventIdentifier>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)chatConversationMuteMenuToolbarEvent __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MEGAAOSChatConversationMuteMenuToolbarEvent *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSString *menuItem __attribute__((swift_name("menuItem")));
+@property (readonly) NSString *menuType __attribute__((swift_name("menuType")));
+@property (readonly) NSString * _Nullable screenName __attribute__((swift_name("screenName")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
 __attribute__((swift_name("ChatConversationScreen")))
 @protocol MEGAAOSChatConversationScreen
 @required
@@ -2978,6 +3149,25 @@ __attribute__((swift_name("ChatConversationScreenEvent")))
 + (instancetype)chatConversationScreenEvent __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) MEGAAOSChatConversationScreenEvent *shared __attribute__((swift_name("shared")));
 @property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
+__attribute__((swift_name("ChatConversationSelectMenuToolbar")))
+@protocol MEGAAOSChatConversationSelectMenuToolbar
+@required
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ChatConversationSelectMenuToolbarEvent")))
+@interface MEGAAOSChatConversationSelectMenuToolbarEvent : MEGAAOSBase <MEGAAOSMenuItemEventIdentifier>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)chatConversationSelectMenuToolbarEvent __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MEGAAOSChatConversationSelectMenuToolbarEvent *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSString *menuItem __attribute__((swift_name("menuItem")));
+@property (readonly) NSString *menuType __attribute__((swift_name("menuType")));
+@property (readonly) NSString * _Nullable screenName __attribute__((swift_name("screenName")));
 @property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
 @end
 
@@ -3012,6 +3202,44 @@ __attribute__((swift_name("ChatConversationShareActionMenuEvent")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)chatConversationShareActionMenuEvent __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) MEGAAOSChatConversationShareActionMenuEvent *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSString *menuItem __attribute__((swift_name("menuItem")));
+@property (readonly) NSString *menuType __attribute__((swift_name("menuType")));
+@property (readonly) NSString * _Nullable screenName __attribute__((swift_name("screenName")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
+__attribute__((swift_name("ChatConversationUnmuteMenuToolbar")))
+@protocol MEGAAOSChatConversationUnmuteMenuToolbar
+@required
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ChatConversationUnmuteMenuToolbarEvent")))
+@interface MEGAAOSChatConversationUnmuteMenuToolbarEvent : MEGAAOSBase <MEGAAOSMenuItemEventIdentifier>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)chatConversationUnmuteMenuToolbarEvent __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MEGAAOSChatConversationUnmuteMenuToolbarEvent *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSString *menuItem __attribute__((swift_name("menuItem")));
+@property (readonly) NSString *menuType __attribute__((swift_name("menuType")));
+@property (readonly) NSString * _Nullable screenName __attribute__((swift_name("screenName")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
+__attribute__((swift_name("ChatConversationVideoMenuToolbar")))
+@protocol MEGAAOSChatConversationVideoMenuToolbar
+@required
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ChatConversationVideoMenuToolbarEvent")))
+@interface MEGAAOSChatConversationVideoMenuToolbarEvent : MEGAAOSBase <MEGAAOSMenuItemEventIdentifier>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)chatConversationVideoMenuToolbarEvent __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) MEGAAOSChatConversationVideoMenuToolbarEvent *shared __attribute__((swift_name("shared")));
 @property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
 @property (readonly) NSString *menuItem __attribute__((swift_name("menuItem")));
 @property (readonly) NSString *menuType __attribute__((swift_name("menuType")));
