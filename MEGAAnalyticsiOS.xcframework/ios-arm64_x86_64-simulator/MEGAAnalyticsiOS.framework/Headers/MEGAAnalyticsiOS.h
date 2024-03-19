@@ -2025,6 +2025,24 @@ __attribute__((swift_name("CompositeDecoderCompanion")))
 @property (readonly) int32_t UNKNOWN_NAME __attribute__((swift_name("UNKNOWN_NAME")));
 @end
 
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("AccountRegistrationEvent")))
+@interface MEGAAOSAccountRegistrationEvent : MEGAAOSBase
+- (instancetype)initWithReferrerUrl:(NSString * _Nullable)referrerUrl referrerClickTime:(MEGAAOSLong * _Nullable)referrerClickTime appInstallTime:(MEGAAOSLong * _Nullable)appInstallTime __attribute__((swift_name("init(referrerUrl:referrerClickTime:appInstallTime:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) MEGAAOSLong * _Nullable appInstallTime __attribute__((swift_name("appInstallTime")));
+@property (readonly) MEGAAOSLong * _Nullable referrerClickTime __attribute__((swift_name("referrerClickTime")));
+@property (readonly) NSString * _Nullable referrerUrl __attribute__((swift_name("referrerUrl")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("AccountRegistrationEventEvent")))
+@interface MEGAAOSAccountRegistrationEventEvent : MEGAAOSBase <MEGAAOSGeneralEventIdentifier>
+- (instancetype)initWithReferrerUrl:(NSString * _Nullable)referrerUrl referrerClickTime:(MEGAAOSLong * _Nullable)referrerClickTime appInstallTime:(MEGAAOSLong * _Nullable)appInstallTime __attribute__((swift_name("init(referrerUrl:referrerClickTime:appInstallTime:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSDictionary<NSString *, id> *info __attribute__((swift_name("info")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
 __attribute__((swift_name("AddItemsToExistingAlbumFAB")))
 @protocol MEGAAOSAddItemsToExistingAlbumFAB
 @required
