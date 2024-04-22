@@ -180,7 +180,6 @@ __attribute__((swift_name("AppIdentifier")))
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) int32_t id __attribute__((swift_name("id")));
 @property (readonly) int32_t identifier __attribute__((swift_name("identifier")));
 @end
 
