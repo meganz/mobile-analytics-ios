@@ -1,4 +1,4 @@
-framework module MEGAAnalyticsiOS {
+framework module "MEGAAnalyticsiOS" {
     umbrella header "MEGAAnalyticsiOS.h"
 
     export *
