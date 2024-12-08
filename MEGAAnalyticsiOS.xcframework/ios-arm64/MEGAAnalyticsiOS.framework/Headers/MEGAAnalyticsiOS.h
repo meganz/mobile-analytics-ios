@@ -6187,6 +6187,11 @@ __attribute__((swift_name("ExampleDialogDisplayed")))
 @required
 @end
 
+__attribute__((swift_name("ExampleLegacy")))
+@protocol MEGAAOSExampleLegacy
+@required
+@end
+
 __attribute__((swift_name("ExampleMenuItemSelected")))
 @protocol MEGAAOSExampleMenuItemSelected
 @required
