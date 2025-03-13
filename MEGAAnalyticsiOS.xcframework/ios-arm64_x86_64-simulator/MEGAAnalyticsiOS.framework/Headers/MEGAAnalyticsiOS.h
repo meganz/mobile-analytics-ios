@@ -10584,6 +10584,21 @@ __attribute__((swift_name("RemoveTrustedNetworkButtonPressedEvent")))
 @property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
 @end
 
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("RequestNewCountries")))
+@interface MEGAAOSRequestNewCountries : MEGAAOSBase
+- (instancetype)initWithCountries:(NSString *)countries __attribute__((swift_name("init(countries:)"))) __attribute__((objc_designated_initializer));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("RequestNewCountriesEvent")))
+@interface MEGAAOSRequestNewCountriesEvent : MEGAAOSBase <MEGAAOSGeneralEventIdentifier>
+- (instancetype)initWithCountries:(NSString *)countries __attribute__((swift_name("init(countries:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSDictionary<NSString *, id> *info __attribute__((swift_name("info")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
 __attribute__((swift_name("ResendEmailConfirmationButtonPressed")))
 @protocol MEGAAOSResendEmailConfirmationButtonPressed
 @required
