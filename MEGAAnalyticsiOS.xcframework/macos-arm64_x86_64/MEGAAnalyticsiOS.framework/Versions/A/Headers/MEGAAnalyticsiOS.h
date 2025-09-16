@@ -16973,6 +16973,22 @@ __attribute__((swift_name("VideoCodecHEVCSelectedEvent")))
 @property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
 @end
 
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("VideoPlaybackRecord")))
+@interface MEGAAOSVideoPlaybackRecord : MEGAAOSBase
+- (instancetype)initWithDuration:(int32_t)duration __attribute__((swift_name("init(duration:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) int32_t duration __attribute__((swift_name("duration")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("VideoPlaybackRecordEvent")))
+@interface MEGAAOSVideoPlaybackRecordEvent : MEGAAOSBase <MEGAAOSGeneralEventIdentifier>
+- (instancetype)initWithDuration:(int32_t)duration __attribute__((swift_name("init(duration:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSDictionary<NSString *, id> *info __attribute__((swift_name("info")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
 __attribute__((swift_name("VideoPlayerFullScreenPressed")))
 @protocol MEGAAOSVideoPlayerFullScreenPressed
 @required
