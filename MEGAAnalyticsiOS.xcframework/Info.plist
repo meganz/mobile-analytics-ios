@@ -6,6 +6,21 @@
 	<array>
 		<dict>
 			<key>BinaryPath</key>
+			<string>MEGAAnalyticsiOS.framework/Versions/A/MEGAAnalyticsiOS</string>
+			<key>LibraryIdentifier</key>
+			<string>macos-arm64_x86_64</string>
+			<key>LibraryPath</key>
+			<string>MEGAAnalyticsiOS.framework</string>
+			<key>SupportedArchitectures</key>
+			<array>
+				<string>arm64</string>
+				<string>x86_64</string>
+			</array>
+			<key>SupportedPlatform</key>
+			<string>macos</string>
+		</dict>
+		<dict>
+			<key>BinaryPath</key>
 			<string>MEGAAnalyticsiOS.framework/MEGAAnalyticsiOS</string>
 			<key>DebugSymbolsPath</key>
 			<string>dSYMs</string>
@@ -19,21 +34,6 @@
 			</array>
 			<key>SupportedPlatform</key>
 			<string>ios</string>
-		</dict>
-		<dict>
-			<key>BinaryPath</key>
-			<string>MEGAAnalyticsiOS.framework/Versions/A/MEGAAnalyticsiOS</string>
-			<key>LibraryIdentifier</key>
-			<string>macos-arm64_x86_64</string>
-			<key>LibraryPath</key>
-			<string>MEGAAnalyticsiOS.framework</string>
-			<key>SupportedArchitectures</key>
-			<array>
-				<string>arm64</string>
-				<string>x86_64</string>
-			</array>
-			<key>SupportedPlatform</key>
-			<string>macos</string>
 		</dict>
 		<dict>
 			<key>BinaryPath</key>
