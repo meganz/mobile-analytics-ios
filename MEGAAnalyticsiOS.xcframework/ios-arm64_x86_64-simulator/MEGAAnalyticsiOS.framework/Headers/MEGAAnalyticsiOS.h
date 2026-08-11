@@ -23983,6 +23983,23 @@ __attribute__((swift_name("VideoPlaybackStartupFailureNewVPEvent")))
 @property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
 @end
 
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("VideoPlaybackStartupFailureReasonNewVP")))
+@interface MEGAAOSVideoPlaybackStartupFailureReasonNewVP : MEGAAOSBase
+- (instancetype)initWithErrCode:(int32_t)errCode reason:(NSString *)reason __attribute__((swift_name("init(errCode:reason:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) int32_t errCode __attribute__((swift_name("errCode")));
+@property (readonly) NSString *reason __attribute__((swift_name("reason")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("VideoPlaybackStartupFailureReasonNewVPEvent")))
+@interface MEGAAOSVideoPlaybackStartupFailureReasonNewVPEvent : MEGAAOSBase <MEGAAOSGeneralEventIdentifier>
+- (instancetype)initWithErrCode:(int32_t)errCode reason:(NSString *)reason __attribute__((swift_name("init(errCode:reason:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSDictionary<NSString *, id> *info __attribute__((swift_name("info")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
 __attribute__((swift_name("VideoPlayerFullScreenPressed")))
 @protocol MEGAAOSVideoPlayerFullScreenPressed
 @required
