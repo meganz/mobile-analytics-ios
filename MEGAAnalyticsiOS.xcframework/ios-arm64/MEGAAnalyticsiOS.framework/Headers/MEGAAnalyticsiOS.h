@@ -24415,6 +24415,22 @@ __attribute__((swift_name("UpgradeMyAccountEvent")))
 @property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
 @end
 
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("UpgradePlansPurchaseError")))
+@interface MEGAAOSUpgradePlansPurchaseError : MEGAAOSBase
+- (instancetype)initWithDetails:(NSString *)details __attribute__((swift_name("init(details:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) NSString *details __attribute__((swift_name("details")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("UpgradePlansPurchaseErrorEvent")))
+@interface MEGAAOSUpgradePlansPurchaseErrorEvent : MEGAAOSBase <MEGAAOSGeneralEventIdentifier>
+- (instancetype)initWithDetails:(NSString *)details __attribute__((swift_name("init(details:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSDictionary<NSString *, id> *info __attribute__((swift_name("info")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
 __attribute__((swift_name("UpgradeToProToGetUnlimitedCallsDialog")))
 @protocol MEGAAOSUpgradeToProToGetUnlimitedCallsDialog
 @required
