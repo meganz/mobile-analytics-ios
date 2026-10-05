@@ -8464,8 +8464,18 @@ __attribute__((swift_name("ContactItemSelected")))
 @required
 @end
 
+__attribute__((swift_name("ContactItemSendFileMenuItem")))
+@protocol MEGAAOSContactItemSendFileMenuItem
+@required
+@end
+
 __attribute__((swift_name("ContactItemSendMessageMenuItem")))
 @protocol MEGAAOSContactItemSendMessageMenuItem
+@required
+@end
+
+__attribute__((swift_name("ContactItemShareContactMenuItem")))
+@protocol MEGAAOSContactItemShareContactMenuItem
 @required
 @end
 
