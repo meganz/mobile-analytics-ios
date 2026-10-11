@@ -14083,8 +14083,11 @@ __attribute__((swift_name("ContinueWhereLeftOffSortByNameDescendingSelectedEvent
 
 
 /**
- * The Continue where you left off carousel was shown on Home. Sent once per Home appearance,
- * not on every scroll, so it can be the denominator for the carousel's tap-through rate.
+ * The Continue where you left off carousel was shown on Home with at least one item. Sent at most
+ * once per app session (process): not again on scroll, recomposition, rotation, tab switches or
+ * returning to Home, and not while the carousel is loading or empty. It counts sessions that saw
+ * a non-empty carousel, so pair it with [ContinueWhereLeftOffWidgetItemPressed] per session for
+ * the tap-through rate.
  */
 __attribute__((swift_name("ContinueWhereLeftOffWidgetDisplayed")))
 @protocol MEGAAOSContinueWhereLeftOffWidgetDisplayed
