@@ -16287,6 +16287,81 @@ __attribute__((swift_name("ExcludedClass")))
 @required
 @end
 
+
+/**
+ * The external image viewer showed an image that another app sent to MEGA.
+ *
+ * @property fileType Image type: `jpeg`, `png`, `heic`, `webp`, `gif` or `other`. It comes from
+ * the MIME type of the intent, with the file extension as fallback.
+ * @property isLoggedIn True when the user is logged in at the time of the event.
+ */
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ExternalImageOpened")))
+@interface MEGAAOSExternalImageOpened : MEGAAOSBase
+- (instancetype)initWithFileType:(NSString *)fileType isLoggedIn:(BOOL)isLoggedIn __attribute__((swift_name("init(fileType:isLoggedIn:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) NSString *fileType __attribute__((swift_name("fileType")));
+@property (readonly) BOOL isLoggedIn __attribute__((swift_name("isLoggedIn")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ExternalImageOpenedEvent")))
+@interface MEGAAOSExternalImageOpenedEvent : MEGAAOSBase <MEGAAOSGeneralEventIdentifier>
+- (instancetype)initWithFileType:(NSString *)fileType isLoggedIn:(BOOL)isLoggedIn __attribute__((swift_name("init(fileType:isLoggedIn:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSDictionary<NSString *, id> *info __attribute__((swift_name("info")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
+
+/**
+ * The user tapped "Save to Cloud Drive" in the external image viewer. Divide by
+ * [ExternalImageOpened] for each [fileType] to get the share of opens that the user saves.
+ *
+ * @property fileType Same values as [ExternalImageOpened.fileType].
+ * @property isLoggedIn True when the user is logged in at the time of the event. It can differ
+ * from the value of the [ExternalImageOpened] event, because the user can log in after the open.
+ */
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ExternalImageSaveToCloudDriveTapped")))
+@interface MEGAAOSExternalImageSaveToCloudDriveTapped : MEGAAOSBase
+- (instancetype)initWithFileType:(NSString *)fileType isLoggedIn:(BOOL)isLoggedIn __attribute__((swift_name("init(fileType:isLoggedIn:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) NSString *fileType __attribute__((swift_name("fileType")));
+@property (readonly) BOOL isLoggedIn __attribute__((swift_name("isLoggedIn")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ExternalImageSaveToCloudDriveTappedEvent")))
+@interface MEGAAOSExternalImageSaveToCloudDriveTappedEvent : MEGAAOSBase <MEGAAOSGeneralEventIdentifier>
+- (instancetype)initWithFileType:(NSString *)fileType isLoggedIn:(BOOL)isLoggedIn __attribute__((swift_name("init(fileType:isLoggedIn:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSDictionary<NSString *, id> *info __attribute__((swift_name("info")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
+
+/**
+ * The upload of the image from the external image viewer started.
+ *
+ * @property fileType Same values as [ExternalImageOpened.fileType].
+ * @property isLoggedIn True when the user is logged in at the time of the event.
+ */
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ExternalImageUploadStarted")))
+@interface MEGAAOSExternalImageUploadStarted : MEGAAOSBase
+- (instancetype)initWithFileType:(NSString *)fileType isLoggedIn:(BOOL)isLoggedIn __attribute__((swift_name("init(fileType:isLoggedIn:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) NSString *fileType __attribute__((swift_name("fileType")));
+@property (readonly) BOOL isLoggedIn __attribute__((swift_name("isLoggedIn")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ExternalImageUploadStartedEvent")))
+@interface MEGAAOSExternalImageUploadStartedEvent : MEGAAOSBase <MEGAAOSGeneralEventIdentifier>
+- (instancetype)initWithFileType:(NSString *)fileType isLoggedIn:(BOOL)isLoggedIn __attribute__((swift_name("init(fileType:isLoggedIn:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSDictionary<NSString *, id> *info __attribute__((swift_name("info")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
 __attribute__((swift_name("FailedTransfersClearAllMenuItem")))
 @protocol MEGAAOSFailedTransfersClearAllMenuItem
 @required
