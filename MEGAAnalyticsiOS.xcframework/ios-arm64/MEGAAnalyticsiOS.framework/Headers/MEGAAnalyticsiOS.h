@@ -6331,6 +6331,10 @@ __attribute__((swift_name("EventDataMapper")))
 
 /**
  * Json mapper
+ *
+ * Returns the event data as JSON text that is escaped as the content of a JSON string,
+ * because the SDK writes the returned text, without escaping, between the quotes of the "m"
+ * field of the log command.
  */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("JsonMapper")))
@@ -6338,11 +6342,19 @@ __attribute__((swift_name("JsonMapper")))
 
 /**
  * Json mapper
+ *
+ * Returns the event data as JSON text that is escaped as the content of a JSON string,
+ * because the SDK writes the returned text, without escaping, between the quotes of the "m"
+ * field of the log command.
  */
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 
 /**
  * Json mapper
+ *
+ * Returns the event data as JSON text that is escaped as the content of a JSON string,
+ * because the SDK writes the returned text, without escaping, between the quotes of the "m"
+ * field of the log command.
  */
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 - (NSString *)mapDataEventData:(NSDictionary<NSString *, id> *)eventData __attribute__((swift_name("mapData(eventData:)")));
