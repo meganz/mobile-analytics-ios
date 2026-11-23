@@ -17393,6 +17393,81 @@ __attribute__((swift_name("ExcludedClass")))
 
 
 /**
+ * The external audio player opened an audio file that another app sent to MEGA.
+ *
+ * @property fileType Audio type: `mp3` or `other`. It comes from the MIME type of the intent, with
+ * the file extension as fallback.
+ * @property isLoggedIn True when the user is logged in at the time of the event.
+ */
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ExternalAudioOpened")))
+@interface MEGAAOSExternalAudioOpened : MEGAAOSBase
+- (instancetype)initWithFileType:(NSString *)fileType isLoggedIn:(BOOL)isLoggedIn __attribute__((swift_name("init(fileType:isLoggedIn:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) NSString *fileType __attribute__((swift_name("fileType")));
+@property (readonly) BOOL isLoggedIn __attribute__((swift_name("isLoggedIn")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ExternalAudioOpenedEvent")))
+@interface MEGAAOSExternalAudioOpenedEvent : MEGAAOSBase <MEGAAOSGeneralEventIdentifier>
+- (instancetype)initWithFileType:(NSString *)fileType isLoggedIn:(BOOL)isLoggedIn __attribute__((swift_name("init(fileType:isLoggedIn:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSDictionary<NSString *, id> *info __attribute__((swift_name("info")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
+
+/**
+ * The user tapped "Save to MEGA" in the external audio player. Divide by [ExternalAudioOpened]
+ * for each [fileType] to get the share of opens that the user saves.
+ *
+ * @property fileType Same values as [ExternalAudioOpened.fileType].
+ * @property isLoggedIn True when the user is logged in at the time of the event. It can differ
+ * from the value of the [ExternalAudioOpened] event, because the user can log in after the open.
+ */
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ExternalAudioSaveToCloudDriveTapped")))
+@interface MEGAAOSExternalAudioSaveToCloudDriveTapped : MEGAAOSBase
+- (instancetype)initWithFileType:(NSString *)fileType isLoggedIn:(BOOL)isLoggedIn __attribute__((swift_name("init(fileType:isLoggedIn:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) NSString *fileType __attribute__((swift_name("fileType")));
+@property (readonly) BOOL isLoggedIn __attribute__((swift_name("isLoggedIn")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ExternalAudioSaveToCloudDriveTappedEvent")))
+@interface MEGAAOSExternalAudioSaveToCloudDriveTappedEvent : MEGAAOSBase <MEGAAOSGeneralEventIdentifier>
+- (instancetype)initWithFileType:(NSString *)fileType isLoggedIn:(BOOL)isLoggedIn __attribute__((swift_name("init(fileType:isLoggedIn:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSDictionary<NSString *, id> *info __attribute__((swift_name("info")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
+
+/**
+ * The upload of the audio file from the external audio player started.
+ *
+ * @property fileType Same values as [ExternalAudioOpened.fileType].
+ * @property isLoggedIn True when the user is logged in at the time of the event.
+ */
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ExternalAudioUploadStarted")))
+@interface MEGAAOSExternalAudioUploadStarted : MEGAAOSBase
+- (instancetype)initWithFileType:(NSString *)fileType isLoggedIn:(BOOL)isLoggedIn __attribute__((swift_name("init(fileType:isLoggedIn:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) NSString *fileType __attribute__((swift_name("fileType")));
+@property (readonly) BOOL isLoggedIn __attribute__((swift_name("isLoggedIn")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ExternalAudioUploadStartedEvent")))
+@interface MEGAAOSExternalAudioUploadStartedEvent : MEGAAOSBase <MEGAAOSGeneralEventIdentifier>
+- (instancetype)initWithFileType:(NSString *)fileType isLoggedIn:(BOOL)isLoggedIn __attribute__((swift_name("init(fileType:isLoggedIn:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSDictionary<NSString *, id> *info __attribute__((swift_name("info")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
+
+/**
  * The external image viewer showed an image that another app sent to MEGA.
  *
  * @property fileType Image type: `jpeg`, `png`, `heic`, `webp`, `gif` or `other`. It comes from
