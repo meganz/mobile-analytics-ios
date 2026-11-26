@@ -17541,6 +17541,75 @@ __attribute__((swift_name("ExternalImageUploadStartedEvent")))
 @property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
 @end
 
+
+/**
+ * The PDF viewer opened a PDF that another app sent to MEGA. The event has no file type, because
+ * the PDF viewer opens only PDF files.
+ *
+ * @property isLoggedIn True when the user is logged in at the time of the event.
+ */
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ExternalPdfOpened")))
+@interface MEGAAOSExternalPdfOpened : MEGAAOSBase
+- (instancetype)initWithIsLoggedIn:(BOOL)isLoggedIn __attribute__((swift_name("init(isLoggedIn:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) BOOL isLoggedIn __attribute__((swift_name("isLoggedIn")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ExternalPdfOpenedEvent")))
+@interface MEGAAOSExternalPdfOpenedEvent : MEGAAOSBase <MEGAAOSGeneralEventIdentifier>
+- (instancetype)initWithIsLoggedIn:(BOOL)isLoggedIn __attribute__((swift_name("init(isLoggedIn:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSDictionary<NSString *, id> *info __attribute__((swift_name("info")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
+
+/**
+ * The user tapped "Save to MEGA" in the PDF viewer for a PDF that another app sent to MEGA.
+ * Divide by [ExternalPdfOpened] to get the share of opens that the user saves.
+ *
+ * @property isLoggedIn True when the user is logged in at the time of the event. It can differ
+ * from the value of the [ExternalPdfOpened] event, because the user can log in after the open.
+ */
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ExternalPdfSaveToCloudDriveTapped")))
+@interface MEGAAOSExternalPdfSaveToCloudDriveTapped : MEGAAOSBase
+- (instancetype)initWithIsLoggedIn:(BOOL)isLoggedIn __attribute__((swift_name("init(isLoggedIn:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) BOOL isLoggedIn __attribute__((swift_name("isLoggedIn")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ExternalPdfSaveToCloudDriveTappedEvent")))
+@interface MEGAAOSExternalPdfSaveToCloudDriveTappedEvent : MEGAAOSBase <MEGAAOSGeneralEventIdentifier>
+- (instancetype)initWithIsLoggedIn:(BOOL)isLoggedIn __attribute__((swift_name("init(isLoggedIn:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSDictionary<NSString *, id> *info __attribute__((swift_name("info")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
+
+/**
+ * The upload of a PDF that another app sent to MEGA started.
+ *
+ * @property isLoggedIn True when the user is logged in at the time of the event.
+ */
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ExternalPdfUploadStarted")))
+@interface MEGAAOSExternalPdfUploadStarted : MEGAAOSBase
+- (instancetype)initWithIsLoggedIn:(BOOL)isLoggedIn __attribute__((swift_name("init(isLoggedIn:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) BOOL isLoggedIn __attribute__((swift_name("isLoggedIn")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ExternalPdfUploadStartedEvent")))
+@interface MEGAAOSExternalPdfUploadStartedEvent : MEGAAOSBase <MEGAAOSGeneralEventIdentifier>
+- (instancetype)initWithIsLoggedIn:(BOOL)isLoggedIn __attribute__((swift_name("init(isLoggedIn:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) NSString *eventName __attribute__((swift_name("eventName")));
+@property (readonly) NSDictionary<NSString *, id> *info __attribute__((swift_name("info")));
+@property (readonly) int32_t uniqueIdentifier __attribute__((swift_name("uniqueIdentifier")));
+@end
+
 __attribute__((swift_name("FailedTransfersClearAllMenuItem")))
 @protocol MEGAAOSFailedTransfersClearAllMenuItem
 @required
